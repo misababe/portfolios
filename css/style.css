@@ -23,6 +23,7 @@
     color:grey;
 }
 .hover h2{
+    transition: 0.8s;
     color: #000;
 }
 .container .middle h1{
@@ -44,6 +45,8 @@
 }
 .middle p{
     margin: 8% auto;
+    font-size: 16px;
+    font-family: 'Raleway';
 }
 
 li.tr{
@@ -95,4 +98,36 @@ li.tr{
     position: absolute;
     left: -480px;
     top: -600px;
+}
+
+/*´ò×ÖÐ§¹û*/
+.typed-cursor{
+    font-size: 50px;
+    opacity: 1;
+    font-weight: 900;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    -ms-animation: blink 0.7s infinite;
+    -o-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-ms-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-o-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }

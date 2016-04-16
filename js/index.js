@@ -1,50 +1,83 @@
-/**
- * Created by Administrator on 2016/4/8.
- */
-    window.onresize = window.onload= function(){
-        var iW = $(window).width();
-        var iH = $(window).height();
-        $('.parallax-box').css({width:iW*0.3,height:iH})
-        $('.parallax-box').find('div img:first').css({width:iW*0.3,height:iH})
-        //$('.parallax-box').find('div:gt(0)').css({top:0,right:0})
+$(function() {
+    window.onload = window.onresize = function(){
+        parallax();
+    }
 
-        var oPar = $('.parallax-box');
-        var aDiv = $('.parallax-box').find('div:gt(0)');
-        console.log(aDiv)
+    $(document).ready(function(){
+        Typewriting();
+    });
+    /*-------------------------------------------
+     右侧视差效果
+     ---------------------------------------------*/
+    function parallax(){
+            var iW = $(window).width();
+            var iH = $(window).height();
+            $('.parallax-box').css({width:iW*0.3,height:iH})
+            $('.parallax-box').find('div img:first').css({width:iW*0.3,height:iH})
+            //$('.parallax-box').find('div:gt(0)').css({top:0,right:0})
 
-        var x = 0;
-        var y = 0;
+            var oPar = $('.parallax-box');
+            var aDiv = $('.parallax-box').find('div:gt(0)');
+            //console.log(aDiv)
+
+            var x = 0;
+            var y = 0;
 
 
-        document.onmouseover = function(ev){
-            var oEvent = ev || event;
-
-            var disX = ev.clientX - x;
-            var disY = ev.clientY - y;
-
-            document.onmousemove = function(ev){
+            document.onmouseover = function(ev){
                 var oEvent = ev || event;
 
-                x = ev.clientX - disX;
-                y = ev.clientY - disY;
+                var disX = ev.clientX - x;
+                var disY = ev.clientY - y;
+
+                document.onmousemove = function(ev){
+                    var oEvent = ev || event;
+
+                    x = ev.clientX - disX;
+                    y = ev.clientY - disY;
 
 
 
-                for(var i=0;i<aDiv.length;i++){
-                    aDiv[i].style.marginLeft = x * aDiv[i].style.zIndex/50 + 'px';
+                    for(var i=0;i<aDiv.length;i++){
+                        aDiv[i].style.marginLeft = x * aDiv[i].style.zIndex/50 + 'px';
 
-                    aDiv[i].style.marginTop = y * aDiv[i].style.zIndex/50 + 'px';
+                        aDiv[i].style.marginTop = y * aDiv[i].style.zIndex/50 + 'px';
+                    }
+
+                    //console.log(x,y)
+
                 }
 
-                console.log(x,y)
+                oPar.onmouseout = function(){
+                    document.onmousemove = oPar.onmouseout = null;
+                }
 
+                return false;
             }
-
-            oPar.onmouseout = function(){
-                document.onmousemove = oPar.onmouseout = null;
-            }
-
-            return false;
-        }
-
     }
+
+    /*-------------------------------------------
+     打字效果删了重写
+     ---------------------------------------------*/
+
+    function Typewriting() {
+
+        $(document).ready(function(){
+            setTimeout( function(){
+                if($("#site-type").length) {
+                    $(".typewrite strong").typed({
+                        strings: ["show case ", "projects "],
+                        typeSpeed: 100,
+                        backDelay: 500,
+                        loop: false,
+                        contentType: 'html', // or text
+                        // defaults to false for infinite loop
+                        loopCount: false,
+                    });
+                }
+            }, 3000);
+        });
+    }
+})
+
+
