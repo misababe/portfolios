@@ -3,9 +3,6 @@ $(function() {
         parallax();
     }
 
-    $(document).ready(function(){
-        Typewriting();
-    });
     /*-------------------------------------------
      右侧视差效果
      ---------------------------------------------*/
@@ -60,24 +57,6 @@ $(function() {
      打字效果删了重写
      ---------------------------------------------*/
 
-    function Typewriting() {
-
-        $(document).ready(function(){
-            setTimeout( function(){
-                if($("#site-type").length) {
-                    $(".typewrite strong").typed({
-                        strings: ["show case ", "projects "],
-                        typeSpeed: 100,
-                        backDelay: 500,
-                        loop: false,
-                        contentType: 'html', // or text
-                        // defaults to false for infinite loop
-                        loopCount: false,
-                    });
-                }
-            }, 3000);
-        });
-    }
 })
 
 

@@ -72,7 +72,8 @@ li.tr{
     opacity: 0.9;
 }
 .grid-hover h1{
-    font-weight: 600;
+    font-family: microsoft YaHei;
+    font-weight: 500;
     position: absolute;
     bottom: 15%;
     left: 5%;
