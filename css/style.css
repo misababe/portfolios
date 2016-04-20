@@ -132,3 +132,13 @@ li.tr{
     50% { opacity:0; }
     100% { opacity:1; }
 }
+/*projectÏêÇéÒ³ÓÒ²àÎÄ×ÖÃèÊö*/
+.rightText{
+    margin-top: -9%;
+}
+.prev-button{
+    float: left;
+}
+.next-button{
+    float: right;
+}
