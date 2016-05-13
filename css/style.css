@@ -1,0 +1,144 @@
+@media (max-width: 768px) and (min-width: 481px) {
+    .container{
+        margin: 0 auto;
+    }
+    li.tr {
+        width: 400px !important;
+        padding-right: 0;
+        margin-top: 5% !important;
+    }
+    .container{
+        padding-left: 10% !important;
+    }
+}
+@media (max-width: 480px) and (min-width: 320px){
+    .container{
+        padding-left: 10% !important;
+    }
+}
+.hover:hover{
+    text-decoration: none;
+}
+.hover h2:hover{
+    color:grey;
+}
+.hover h2{
+    transition: 0.8s;
+    color: #000;
+}
+.container .middle h1{
+    margin: 0;
+    font-size: 43px;
+    color: #000000;
+    font-weight: 900;
+    line-height: 70px;
+}
+.container .middle h1:first-child{
+    margin-top: 8%;
+}
+.autoW{
+    width: 100%;
+}
+.tr{
+    transition: 0.8s easeIn;
+    padding: 0;
+}
+.middle p{
+    margin: 8% auto;
+    font-size: 16px;
+    font-family: 'Raleway';
+}
+
+li.tr{
+    margin-right: 5%;
+    margin-bottom: 5%;
+    display: inline;
+}
+.grid-hover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: white;
+    z-index: 2;
+    opacity: 0;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+.grid-hover:hover{
+    opacity: 0.9;
+}
+.grid-hover h1{
+    font-family: microsoft YaHei;
+    font-weight: 500;
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+}
+.grid-hover p{
+    position: absolute;
+    bottom: 2%;
+    left: 6%;
+    color: #666666;
+}
+.parallax-box{
+    position: absolute;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+}
+#pic2{
+    position: absolute;
+    left: -300px;
+    top: -700px;
+}
+#pic3{
+    position: absolute;
+    left: -480px;
+    top: -600px;
+}
+
+/*打字效果*/
+.typed-cursor{
+    font-size: 50px;
+    opacity: 1;
+    font-weight: 900;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    -ms-animation: blink 0.7s infinite;
+    -o-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-ms-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-o-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+/*project详情页右侧文字描述*/
+.rightText{
+    margin-top: -9%;
+}
+.prev-button{
+    float: left;
+}
+.next-button{
+    float: right;
+}
