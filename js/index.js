@@ -1,6 +1,5 @@
 $(function() {
     window.onload = function(){
-        ajax();
         parallax();
     }
     window.onresize = function(){
@@ -64,25 +63,25 @@ $(function() {
     /*-------------------------------------------
      渲染数据
      ---------------------------------------------*/
-    function ajax(){
-        $.getJSON("js/demo_ajax_json.js",function(json){
-            $.each(json.projects,function(index){
-                console.log(json.projects[index].nam);
-                var aImg = createImg(json.projects[index].thumb);
-                //var aH4 = createTitle(result.products[index].nam,result.products[index].price);
-                $('.ajax-ul').find('li').eq(index).prepend(aImg);
-                //$('.circle-works').find('li').find('a').eq(index).append(aH4);
-            })
-            //var str = json.projects;
-            //    for(var i=0;i<str.length;i++){
-            //        if(i==0){
-            //            console.log(str[0].thumb)
-            //            $('.ajax-ul li img').eq(0).attr("src",str[0].thumb)
-            //        }
-            //
-            //    }
-        })
-    }
+    //function ajax(){
+    //    $.getJSON("js/demo_ajax_json.js",function(json){
+    //        $.each(json.projects,function(index){
+    //            console.log(json.projects[index].nam);
+    //            var aImg = createImg(json.projects[index].thumb);
+    //            //var aH4 = createTitle(result.products[index].nam,result.products[index].price);
+    //            $('.ajax-ul').find('li').eq(index).prepend(aImg);
+    //            //$('.circle-works').find('li').find('a').eq(index).append(aH4);
+    //        })
+    //        //var str = json.projects;
+    //        //    for(var i=0;i<str.length;i++){
+    //        //        if(i==0){
+    //        //            console.log(str[0].thumb)
+    //        //            $('.ajax-ul li img').eq(0).attr("src",str[0].thumb)
+    //        //        }
+    //        //
+    //        //    }
+    //    })
+    //}
 
     /*-------------------------------------------
      点击跳转到作品详情页

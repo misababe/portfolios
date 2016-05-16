@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>【携程机票】飞机票查询,机票预订,机票价格查询,打折特价机票</title>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/global.css"/>
+    <link rel="stylesheet" href="css/tools.css"/>
+    <link rel="stylesheet" href="css/flights.css"/>
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" href="css/fixIE.css" />
+    <script src="js/html5shiv.js"></script>
+    <script src="js/DD_belatedPNG_0.0.8a.js"></script>
+    <script >
+        DD_belatedPNG.fix('.bgImg');
+    </script>
+    <![endif]-->
+</head>
+<body>
+<header class="wrap headbox clearfix">
+    <h1 class="maintitle bgImg"><a href="index.html">携程旅行网</a></h1>
+    <div class="blankbox">
+        <!-- 此处为预留盒子放置顶层bannar-->
+    </div>
+    <ul>
+        <li class="lang br">
+            <a href="" class="bgImg" id="ch"></a>
+        </li>
+        <li class="br"><a class="color4b" href="">客服中心</a></li>
+        <li class="serviceTel color4b" style="padding-right: 0">国内<a class="color6c" href="">1010-6666</a><i class="bluetri bgImg"></i></li>
+    </ul>
+    <div class="adv"><a href=""><img src="img/adv.jpg"></a></div>
+</header>
+<section class="global_nav">
+    <div class="wrap clearfix">
+        <ul>
+            <li class="index">
+                <a class="colorwhite" href="index.html">首页</a>
+            </li>
+            <li class="navlist bgImg">
+                <a href="hotels.html">酒店</a>
+                <i class="tri bgImg"></i>
+            </li>
+            <li class="navlist bgImg">
+                <a href="">旅游 <i class="tri bgImg"></i></a>
+            </li>
+            <li class="navlist2">
+                <a class=" choosen3" href="flights.html">机票 <i class="trichoosen bgImg"></i></a>
+            </li>
+            <li class="navlist bgImg">
+                <a href="">火车 <i class="tri bgImg"></i></a>
+            </li>
+            <li class="navlist bgImg">
+                <a href="">汽车票 <i class="tri bgImg"></i></a>
+            </li>
+            <li class="navlist bgImg">
+                <a href="">用车 <i class="tri bgImg"></i></a>
+            </li>
+            <li class="navlist bgImg">
+                <a href="">门票 <i class="tri bgImg"></i></a>
+            </li>
+            <li class="navlist bgImg">
+                <a href="">团购 <i class="tri bgImg"></i></a>
+            </li>
+            <li class="navlist bgImg">
+                <a href="">攻略</a>
+            </li>
+            <li class="navlist bgImg">
+                <a href="">全球购 <i class="tri bgImg"></i></a>
+            </li>
+            <li class="navlist bgImg">
+                <a href="">礼品卡 <i class="tri bgImg"></i></a>
+            </li>
+            <li class="navlist bgImg">
+                <a href="">商旅 <i class="tri bgImg"></i></a>
+            </li>
+            <li class="navlist bgImg">
+                <a href="">更多 <i class="tri bgImg"></i></a>
+            </li>
+            <li class="navlist bgImg">
+                <a href="">游轮</a>
+            </li>
+
+        </ul>
+        <div class="loginBar">
+            <i class="log_icon bgImg"></i>
+            <div class="log_title">
+                <a href="" class="login awhite12">登录</a>
+                <a href="" class="regsiter awhite12">注册</a>
+                <div class="my"><a class="awhite14" href="">我的携程</a></div><i class="tri2 bgImg"></i>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="topmenu clearfix">
+    <ul>
+        <li><a class="color6c" href="">国内机票</a></li>
+        <li><a href="">国际机票</a></li>
+        <li><a href="">国际机票</a></li>
+        <li><a href="">机+酒</a></li>
+        <li><a href="">航班动态</a></li>
+        <li><a href="">退票改签</a></li>
+        <li><a href="">机场攻略</a></li>
+        <li><a href="">机场巴士</a></li>
+        <li><a href="">公务员通道</a></li>
+    </ul>
+    <a class="order" href="">机票订单&gt;</a>
+</section>
+<section class="wrap clearfix mt16">
+    <section class="leftsidbar fl">
+        <div class="ticket_searchbox">
+            <span class="serchtitle"><i class="ico_plane bgImg"></i>国内机票查询</span>
+            <div class="formbox">
+                <form>
+                    <ul>
+                        <li class="formrow">
+                            <span class="hotel_searchtitle">
+                                航程类型
+                            </span>
+                                <span class="mr32">
+                                    <input class="input_radio" type="radio" name="one" checked="checked">单程
+                                </span>
+                            <span class="mr32">
+                                    <input class="input_radio" type="radio" name="one">单程
+                                </span>
+                            <span class="mr32">
+                                    <input class="input_radio" type="radio" name="one">单程
+                                </span>
+                        </li>
+                        <li class="formrow">
+                            <label class="hotel_searchtitle" for="start">
+                                出发城市
+                            </label>
+                            <input class="wd228" type="text" id="start" value="上海（SHA）">
+                        </li>
+                        <li class="formrow">
+                            <label class="hotel_searchtitle" for="end">
+                               到达城市
+                            </label>
+                            <input class="wd228 color66" type="text" id="end" value="中文/拼音">
+                        </li>
+                        <li class="formrow">
+                            <label class="hotel_searchtitle" for="godate">
+                                出发日期
+                            </label>
+                            <input class="wd228 color66" type="text" id="godate" value="yyyy-mm-dd">
+                        </li>
+                        <li class="formrow">
+                            <label class="hotel_searchtitle colorcc" for="backdate">
+                                返回日期
+                            </label>
+                            <input class="wd228 color66" type="text" id="backdate" value="yyyy-mm-dd">
+                        </li>
+                        <li>
+                            <label class="hotel_searchtitle colorcc"></label>
+                            <a class="color6c" href="">高级搜索<i class="bluetri bgImg"></i></a>
+                        </li>
+                        <li class="btn">
+                            <label class="hotel_searchtitle colorcc"></label>
+                            <input type="submit" class="searchbtn bgImg" value="">
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+        <ul class="service">
+            <li class="civs"><a href=""><img src="img/sidebanner.jpg"></a></li>
+            <li class="maps bgImg">
+                <a href="">
+                <span class="fonttitle">看图找特价</span>
+                <p class="color88">地图选择&nbsp;低价机票一览无余</p></a>
+            </li>
+        </ul>
+        <div class="toolbox clearfix">
+            <p class="fonttitle"><a href="">机票工具箱</a> </p>
+                <a href="" class="displ clock bgImg fl"></a>
+                <a href="" class="displ sit bgImg fl"></a>
+                <a href="" class="displ meal bgImg fl"></a>
+                <a href="" class="displ time bgImg fl"></a>
+            <div class="flight_query fl">
+                <b>航班动态查询</b>
+                <form>
+                    <p class="radiorow">
+                        <input class="input_radio2" type="radio" name="type">按航班号查询
+                        <input class="input_radio2" type="radio" name="type">按起降城市查询
+                    </p>
+                    <input type="text" class="round">
+                    <input type="button" class="roundbtn" value="查询">
+                </form>
+            </div>
+        </div>
+        <div class="chooseus">
+            <p class="fonttitle"><a href="">为什么选择携程？</a></p>
+            <a href="" class="slogan"></a>
+        </div>
+       <div class="notice">
+           <p class="fonttitle"><a href="">服务公告</a></p>
+           <ul>
+               <li><a class="color99" href="">·携程互联网保险产品简介</a></li>
+               <li><a class="color99" href="">·携程互联网保险产品简介</a></li>
+               <li><a class="color99" href="">·携程互联网保险产品简介</a></li>
+               <li><a class="color99" href="">·携程互联网保险产品简介</a></li>
+               <li><a class="color99" href="">·携程互联网保险产品简介</a></li>
+               <li><a class="color99" href="">·携程互联网保险产品简介</a></li>
+               <li><a class="color99" href="">·携程互联网保险产品简介</a></li>
+               <li><a class="color6c" href="">&nbsp;更多公告&gt;&gt;</a> </li>
+           </ul>
+       </div>
+    </section>
+    <section class="rightcontent fr">
+        <div class="topbanner">
+            <img src="img/ticketbanner.jpg">
+        </div>
+        <div class="discount">
+            <header>
+                <p class="fonttitle2"><a href="">航空公司特惠专区</a></p>
+            </header>
+            <div class="dis_list">
+                <a href="" class="prev bgImg"></a>
+                <div class="list_content clearfix">
+                    <dl class="discount_item  fl">
+                        <dt>
+                            <i class="guohang bgImg"></i>
+                            <a href="" class=""><strong>中国国航</strong>&gt;&gt;</a>
+                        </dt>
+                        <dd><a href=""><span class="flight_date">10-18</span>上海-福州 <span class="flight_price">￥160</span></a>  </dd>
+                        <dd><a href=""><span class="flight_date">10-18</span>上海-福州 <span class="flight_price">￥160</span></a>  </dd>
+                    </dl>
+                    <dl class="discount_item  fl">
+                        <dt>
+                            <i class="guohang bgImg"></i>
+                            <a href="" class=""><strong>中国国航</strong>&gt;&gt;</a>
+                        </dt>
+                        <dd><a href=""><span class="flight_date">10-18</span>上海-福州 <span class="flight_price">￥160</span></a>  </dd>
+                        <dd><a href=""><span class="flight_date">10-18</span>上海-福州 <span class="flight_price">￥160</span></a>  </dd>
+                    </dl>
+                    <dl class="discount_item  fl">
+                        <dt>
+                            <i class="guohang bgImg"></i>
+                            <a href="" class=""><strong>中国国航</strong>&gt;&gt;</a>
+                        </dt>
+                        <dd><a href=""><span class="flight_date">10-18</span>上海-福州 <span class="flight_price">￥160</span></a>  </dd>
+                        <dd><a href=""><span class="flight_date">10-18</span>上海-福州 <span class="flight_price">￥160</span></a>  </dd>
+                    </dl>
+                </div>
+                <a href="" class="next bgImg"></a>
+            </div>
+        </div>
+        <div class="calender">
+            <header>
+                <i class="bgImg up"></i>
+                <ul class="calender_item">
+                    <li><a href="" class="color6c">猜您喜欢</a></li>
+                    <li><a href="">低价日历</a></li>
+                </ul>
+            </header>
+            <div class="calender_item_content">
+                <ul class="city_pic clearfix">
+                    <li>
+                        <a href="">
+                            <img src="img/beijing.jpg">
+                        </a>
+                        <div class="calender_square"></div>
+                        <p>北京</p>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="img/beijing.jpg">
+                        </a>
+                        <div class="calender_square"></div>
+                        <p>北京</p>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="img/beijing.jpg">
+                        </a>
+                        <div class="calender_square"></div>
+                        <p>北京</p>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="img/beijing.jpg">
+                        </a>
+                        <div class="calender_square"></div>
+                        <p>北京</p>
+                    </li>
+                </ul>
+                <ul class="flight_list">
+                    <li class="noTag">
+                        <a href="">
+                            <p class="flight_line">上海&nbsp;→&nbsp;北京</p>
+                            <p class="calender_date">10月12日</p>
+                            <span class="count">3.3折</span>
+                            <span class="line_price">￥410</span>
+                        </a>
+                    </li>
+                    <li class="noTag">
+                        <a href="">
+                            <p class="flight_line">上海&nbsp;→&nbsp;北京</p>
+                            <p class="calender_date">10月12日</p>
+                            <span class="count">3.3折</span>
+                            <span class="line_price">￥410</span>
+                        </a>
+                    </li>
+                    <li class="noTag">
+                        <a href="">
+                            <p class="flight_line">上海&nbsp;→&nbsp;北京</p>
+                            <p class="calender_date">10月12日</p>
+                            <span class="count">3.3折</span>
+                            <span class="line_price">￥410</span>
+                        </a>
+                    </li>
+                    <li class="noTag">
+                        <a href="">
+                            <p class="flight_line">上海&nbsp;→&nbsp;北京</p>
+                            <p class="calender_date">10月12日</p>
+                            <span class="count">3.3折</span>
+                            <span class="line_price">￥410</span>
+                        </a>
+                    </li>
+                    <li class="noTag">
+                        <a href="">
+                            <p class="flight_line">上海&nbsp;→&nbsp;北京</p>
+                            <p class="calender_date">10月12日</p>
+                            <span class="count">3.3折</span>
+                            <span class="line_price">￥410</span>
+                        </a>
+                    </li>
+                    <li class="noTag">
+                        <a href="">
+                            <p class="flight_line">上海&nbsp;→&nbsp;北京</p>
+                            <p class="calender_date">10月12日</p>
+                            <span class="count">3.3折</span>
+                            <span class="line_price">￥410</span>
+                        </a>
+                    </li>
+                    <li class="noTag">
+                        <a href="">
+                            <p class="flight_line">上海&nbsp;→&nbsp;北京</p>
+                            <p class="calender_date">10月12日</p>
+                            <span class="count">3.3折</span>
+                            <span class="line_price">￥410</span>
+                        </a>
+                    </li>
+                    <li class="noTag">
+                        <a href="">
+                            <p class="flight_line">上海&nbsp;→&nbsp;北京</p>
+                            <p class="calender_date">10月12日</p>
+                            <span class="count">3.3折</span>
+                            <span class="line_price">￥410</span>
+                        </a>
+                    </li>
+                    <li class="haveTag">
+                        <a href="">
+                            <p class="tag">抢低价</p>
+                            <p class="flight_line">上海&nbsp;→&nbsp;北京</p>
+                            <p class="calender_date">10月12日</p>
+                            <span class="count">3.3折</span>
+                            <span class="line_price">￥410</span>
+                        </a>
+                    </li>
+                    <li class="haveTag">
+                        <a href="">
+                            <p class="tag">抢低价</p>
+                            <p class="flight_line">上海&nbsp;→&nbsp;北京</p>
+                            <p class="calender_date">10月12日</p>
+                            <span class="count">3.3折</span>
+                            <span class="line_price">￥410</span>
+                        </a>
+                    </li>
+                    <li class="haveTag">
+                        <a href="">
+                            <p class="tag">抢低价</p>
+                            <p class="flight_line">上海&nbsp;→&nbsp;北京</p>
+                            <p class="calender_date">10月12日</p>
+                            <span class="count">3.3折</span>
+                            <span class="line_price">￥410</span>
+                        </a>
+                    </li>
+                    <li class="haveTag">
+                        <a href="">
+                            <p class="tag">抢低价</p>
+                            <p class="flight_line">上海&nbsp;→&nbsp;北京</p>
+                            <p class="calender_date">10月12日</p>
+                            <span class="count">3.3折</span>
+                            <span class="line_price">￥410</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul class="posterbox clearfix">
+           <li>
+               <a href=""><img src="img/rt.jpg"></a>
+               <div class="poster_item bgImg clearfix">
+                   <p>￥200封顶</br>
+                   超低价机票大抢购</p>
+               </div>
+           </li>
+            <li>
+                <a href=""><img src="img/rt2.jpg"></a>
+                <div class="poster_item bgImg clearfix">
+                    <p>四川航空</br>
+                        超低价机票大抢购</p>
+                </div>
+            </li>
+            <li>
+                <a href=""><img src="img/rt3.jpg"></a>
+                <div class="poster_item bgImg clearfix">
+                    <p>吉祥航空</br>
+                        超低价机票大抢购</p>
+                </div>
+            </li>
+            <li>
+                <a href=""><img src="img/rt4.jpg"></a>
+                <div class="poster_item bgImg clearfix">
+                    <p>￥200封顶</br>
+                        超低价机票大抢购</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+</section>
+<footer>
+    <div class="foot_menu">
+        <h3>携程旅行网提供机票预订，飞机票查询时刻表。票价查询以及特价机票，便宜机票，打折机票查询预订服务</h3>
+        <p>
+            <strong class="square"><a href="">热门机票</a></strong>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到州机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到州机</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机</a>
+        </p>
+        <p class="ml60">
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明广州机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机</a>
+        </p>
+        <p>
+            <strong class="square"><a href="">热门机票</a></strong>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明广州机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机</a>
+        </p>
+        <p class="ml60">
+            <a href="">昆明到广州机票</a>
+            <a href="">昆到广州机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到州机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机</a>
+        </p>
+        <p>
+            <strong class="square"><a href="">热门机票</a></strong>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机</a>
+        </p>
+        <p class="ml60">
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机票</a>
+            <a href="">昆明到广州机</a>
+        </p>
+    </div>
+    <div class="bottom_nav">
+        <a href="">网站导航</a>&nbsp;丨&nbsp;
+        <a href="">网站导航</a>&nbsp;丨&nbsp;
+        <a href="">网站导航</a>&nbsp;丨&nbsp;
+        <a href="">网站导航</a>&nbsp;丨&nbsp;
+        <a href="">网站导航</a>&nbsp;丨&nbsp;
+        <a href="">网站导航</a>&nbsp;丨&nbsp;
+        <a href="">网站导航</a>&nbsp;丨&nbsp;
+        <a href="">网站导航</a>&nbsp;丨&nbsp;
+        <a href="">网站导航</a>&nbsp;丨&nbsp;
+        <a href="">网站导航</a>&nbsp;丨&nbsp;
+        <a href="">网站导航</a>&nbsp;丨&nbsp;
+        <a href="">网站导航</a>&nbsp;丨&nbsp;
+        <a href="">网站导航</a>&nbsp;丨&nbsp;
+        <a href="">网站导航</a>&nbsp;丨&nbsp;
+        <a href="">网站导航</a>&nbsp;丨&nbsp;
+        <a href="">网站导航</a>&nbsp;丨&nbsp;
+        <a href="">网站导航</a>&nbsp;丨&nbsp;
+        <a href="">网站导航</a>&nbsp;丨&nbsp;
+        <a href="">网站导航</a>&nbsp;丨&nbsp;
+        <a href="">网站导航</a>&nbsp;丨&nbsp;
+        <a href="">网站导航</a>
+    </div>
+    <div class="certifi_icon">
+        <a class="honour1 bgImg" href="">信用评级</a>
+        <a class="honour2 bgImg" href="">上海工商</a>
+        <a class="honour3 bgImg" href="">诚信网站</a>
+        <a class="honour4 bgImg" href="">网络社会正希望</a>
+        <a class="honour5 bgImg" href="">上海市互联网违法与违规信息举报中心</a>
+        <a class="honour6 bgImg" href="">可信网站</a>
+        <a class="honour7 bgImg" href="">违法和不良信息举报中心</a>
+        <a class="honour8 bgImg" href="">沪公网备</a>
+    </div>
+</footer>
+</body>
+</html>

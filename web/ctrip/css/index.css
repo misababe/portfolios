@@ -1,0 +1,739 @@
+.main_search{
+    float: left;
+    background: url("../img/top_hd_bg.jpg") no-repeat;
+    width: 592px;
+    height: 59px;
+    position: relative;
+}dt{
+     font-weight: bold;
+     line-height: 32px;
+ }
+
+#all_search{
+    border-radius: 4px;
+    width: 380px;
+    height: 28px;
+    border: 1px solid #8ebefc;
+    color:#757575;
+    position:absolute ;
+    top: 15px;
+    left: 45px;
+}
+#all_seachbtn{
+    width: 42px;
+    height: 28px;
+    background-color: #a4cbff;
+    background-position: 0 -42px;
+    border: none;
+    position: absolute;
+    top: 16px;
+    left: 384px;
+}
+.top_menu{
+    padding: 10px 0;
+    height: 22px;
+    overflow: hidden;
+}
+.menu_title{
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    padding: 0 5px;
+    background: #74a8ed;
+    color: #fff;
+    font-size: 12px;
+    line-height: 22px;
+    border-radius: 2px;
+}
+.menu-ico{
+    background-position: -140px -36px;
+    width: 3px;
+    height: 6px;
+    position: absolute;
+    right: -3px;
+    top: 8px;
+}
+.topList{
+    float: left;
+}
+.topList li{
+    float: left;
+    margin-right: 25px;
+    line-height: 22px;
+}
+.topList a{
+    color: #666;
+}
+.icon_hotel{
+    display: inline-block;
+    background-position: -186px -55px;
+    width: 19px;
+    height: 16px;
+    vertical-align: middle;
+    line-height: 22px;
+}
+.icon_flight{
+    display: inline-block;
+    background-position: -186px -79px;
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    line-height: 22px;
+}
+.icon_car{
+    display: inline-block;
+    background-position: -186px -103px;
+    width:19px;
+    height: 16px;
+    vertical-align: middle;
+    line-height: 22px;
+}
+.icon_ticket{
+    display: inline-block;
+    background-position: -186px -126px;
+    width:14px;
+    height: 16px;
+    vertical-align: middle;
+    line-height: 22px;
+}
+.icon_trip{
+    display: inline-block;
+    background-position: -186px -150px;
+    width:15px;
+    height: 15px;
+    vertical-align: middle;
+    line-height: 22px;
+}
+.icon_toptrip{
+    display: inline-block;
+    background-position: -186px -173px;
+    width:17px;
+    height: 16px;
+    vertical-align: middle;
+    line-height: 22px;
+}
+.icon_overticket{
+    display: inline-block;
+    background-position: -186px -197px;
+    width:10px;
+    height: 17px;
+    vertical-align: middle;
+    line-height: 22px;
+}
+.icon_visa{
+    display: inline-block;
+    background-position: -186px -221px;
+    width:16px;
+    height: 16px;
+    vertical-align: middle;
+    line-height: 22px;
+}
+.icon_insurance{
+    display: inline-block;
+    background-position: -186px -245px;
+    width:14px;
+    height: 16px;
+    vertical-align: middle;
+    line-height: 22px;
+}
+.icon_wifi{
+    display: inline-block;
+    background-position: -186px -269px;
+    width:17px;
+    height: 14px;
+    vertical-align: middle;
+    line-height: 22px;
+}
+.banner{
+    height: 340px;
+    background: #ec6e00 url("../img/gangjiong.jpg") no-repeat center;
+    cursor: pointer;
+    position: relative;
+    z-index: 100;
+}
+.searchbox{
+    margin-top: -320px;
+    margin-bottom: 20px;
+}
+#search_box{
+    width: 581px;
+    height: 300px;
+    background-color: #fff;
+}
+.sidnav{
+    float: left;
+    width: 73px;
+    height: 300px;
+    background-color: #2577e3;
+    padding-left: 17px;
+    overflow: hidden;
+    position: relative;
+    z-index: 100;
+}
+.sidnav a{
+    font-family: "Microsoft YaHei";
+    color: #ffffff;
+}
+.sidnav li{
+    font-size: 16px;
+    line-height: 42px;
+    height: 41px;
+    width: 60px;
+    border-bottom: 1px dashed #aac3f1;
+}
+#highlight{
+    width: 67px;
+    margin-left: -17px;
+    padding-left: 20px;
+    background-color: #fff;
+    border-left: 4px solid #ff9915;
+    border-bottom: none;
+}
+#highlight a{
+    color: #2577e3;
+}
+#bottom{
+    border-bottom: none;
+}
+.searchform{
+    float: left;
+    width: 491px;
+    position: relative;
+    z-index: 100;
+}
+.search-content{
+    background-color: #fff;
+    position: relative;
+    z-index: 100;
+}
+.titlebox{
+    margin: 20px 20px 0 20px;
+    width: 451px;
+    height: 22px;
+    border-bottom: 2px solid #c4c4c4;
+}
+.titlebox li{
+    float: left;
+    line-height: 22px;
+    font-size: 14px;
+    margin-right: 20px;
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+}
+.titlebox a{
+    color: #7a6666;
+}
+#default{
+    border-bottom: 2px solid #0066cc;
+    position: relative;
+}
+#default a{
+    color: #0066cc;
+}
+.botmtri{
+    position: absolute;
+    width: 6px;
+    height: 3px;
+    background-position: -140px -20px;
+    top: 24px;
+    left: 25px;
+}
+.formbox{
+    width: 451px;
+    height: 210px;
+    padding-top: 16px;
+    padding-left: 20px;
+    float: left;
+    overflow: hidden;
+}
+.noborder{
+   height: 13px;
+    overflow: hidden;
+}
+.nomaltr{
+    height: 30px;
+    line-height: 30px;
+}
+.btntr{
+    text-align: right;
+}
+.thtitle{
+    text-align: right;
+    padding-right: 10px;
+    width: 83px;
+}
+#hotelevel{
+    height: 20px;
+    border-radius: 2px;
+}
+.conbox{
+    background-color: #f6f6f6;
+}
+.content{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.tour{
+    height: 418px;
+}
+.tourbox{
+    width: 1178px;
+    height: 390px;
+    border: 1px solid #e0e0e0;
+    border-top: none;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+.tourcontent{
+    padding: 0 19px 5px 19px;
+}
+.tourlist{
+    float: left;
+    width: 920px;
+}
+.tourlist a:hover img{
+    transform: scale(1.2,1.2);
+    transition: 0.8s;
+}
+.tourlist li{
+    float: left;
+    margin: 10px 10px 10px 0;
+}
+.imgbox{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.imgbox img{
+    width: 220px;
+    height: 100%;
+}
+.item{
+    width: 220px;
+    height: 25px;
+    background-color: #000000;
+    opacity: .5;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.overinfo{
+    position: absolute;
+    z-index: 2;
+    color: #fff;
+    width: 180px;
+    bottom: 3px;
+    left: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.tag_count{
+    position: absolute;
+    background-color:#ff6600;
+    width: 30px;
+    height: 16px;
+    color: #fff;
+    padding:0 4px;
+    top: 0;
+    left: 10px;
+}
+.hui{
+    position: absolute;
+    background-position: -3px -126px;
+    width: 18px;
+    height: 16px;
+    left: 4px;
+    bottom: 4px;
+}
+.tourtitle{
+    line-height: 22px;
+    height: 22px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.tourtitle a{
+    display: block;
+    width: 200px;
+    color: #666;
+}
+.pricebox{
+    position: relative;
+    width: 220px;
+    height: 25px;
+}
+.preprice{
+    font-size: 9px;
+    line-height: 9px;
+    color: #878787;
+    text-decoration: line-through;
+    position: absolute;
+    left:100px;
+    bottom: 0;
+}
+.prinfo{
+    vertical-align: 6px;
+}
+.num{
+    font-family: tahoma;
+    font-size: 22px;
+    line-height: 22px;
+    color: #f60;
+}
+.nowprice{
+    color: #666;
+    line-height: 12px;
+}
+.nowpos1{
+    position: absolute;
+    right: 2px ;
+    bottom: 0;
+}
+.nowpos{
+    position: absolute;
+    left: 18%;
+    top:70%;
+}
+.fotwhite{
+    color: #fff;
+}
+.tour_advbox{
+    float: left;
+}
+.sidbar{
+    margin-top: 10px;
+    width: 220px;
+    height: 330px;
+    position: relative;
+    display: block;
+}
+.itemsid{
+    width: 220px;
+    height: 30px;
+    background-color: #000000;
+    opacity: .5;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.sidinfo{
+    color: #fff;
+    position: absolute;
+    margin-left: -68px;
+    bottom: 5px;
+    left:106px;
+}
+.hotel{
+    height: 418px;
+}
+.hotelbox{
+    width: 1178px;
+    height: 390px;
+    border: 1px solid #e0e0e0;
+    border-top: none;
+    overflow: hidden;
+    background-color: #fff;
+}
+.rightcitybox{
+    float: left;
+    width: 948px;
+}
+.citylist{
+    width: 690px;
+}
+.citylist li{
+    float: left;
+    width: 220px;
+    height: 160px;
+    margin: 10px 10px 0 0;
+}
+.citylist img{
+    width: 100%;
+    height: 100%;
+}
+.squr{
+    position: absolute;
+    margin: -56px 0 0 -56px;
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    background-color: #000;
+    opacity: .4;
+    width: 92px;
+    height: 72px;
+    padding: 20px 10px;
+}
+.info{
+    position:absolute;
+    margin: -56px 0 0 -56px;
+    left: 50%;
+    top: 50%;
+    width: 112px;
+    height: 90px;
+    text-align: center;
+    padding-top: 22px;
+}
+.cityname{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+.detail{
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    left: 24%;
+    top:47%;
+    border-bottom: 1px solid #aab3be;
+}
+.ticket{
+    height: 418px;
+}
+.ticketbox{
+    height: 360px;
+    padding: 15px 0 15px 19px;
+    border: 1px solid #e0e0e0;
+    border-top: none;
+    overflow: hidden;
+    background-color: #fff;
+}
+.left_content{
+    width: 690px;
+    margin-right: -10px;
+}
+.left_content li{
+    float: left;
+    margin-right: 10px;
+}
+.country{
+    display: block;
+    border-radius: 2px;
+    width: 128px;
+    height: 50px;
+}
+.bg1{
+    background-position: -4px -150px;
+}
+.bg2{
+    background-position: -4px -208px;
+}
+.bg3{
+    background-position: -4px -266px;
+}
+.bg4{
+    background-position: -4px -324px;
+}
+.bg5{
+    background-position: -4px -382px;
+}
+.car{
+    height: 248px;
+}
+.carlist{
+    width: 929px;
+    float: left;
+    padding: 10px 0 13px 19px;
+    margin-right: -10px;
+}
+.carlist li{
+    width: 220px;
+    float: left;
+    margin-right: 10px;
+}
+.carlist li a img{
+    width: 220px;
+    height: 110px;
+}
+.carlist li a{
+    overflow: hidden;
+}
+/*listPic移上去图片放大*/
+.carlist li a:hover img{
+    transform: scale(1.2,1.2);
+    transition: 0.8s;
+}
+.listtitle1{
+    line-height: 22px;
+}
+/*超出长度变成省略号*/
+.listtitle1 a{
+    display: block;
+    color: #666666;
+    width: 210px;
+    height: 18px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.listtitle2 a{
+    line-height: 30px;
+    float: left;
+    color: #999;
+}
+.carbox{
+    width: 1178px;
+    height: 220px;
+    border: 1px solid #e0e0e0;
+    border-top: none;
+    overflow: hidden;
+    background-color: #fff;
+}
+.icon_listright{
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    height: 16px;
+    width: 30px;
+    border: 1px solid #0b9fdf;
+    color: #0b9fdf;
+}
+.orange{
+    color:#ff6600;
+    border: 1px solid #ff6600;
+    margin-right: 5px;
+}
+.red{
+    color:#ff0000;
+    border: 1px solid #ff0000;
+}
+.yellow{
+    color:#d18f00;
+    border: 1px solid #d18f00;
+}
+.shopping{
+    height: 248px;
+    background-color: palevioletred;
+}
+.service{
+    height: 145px;
+    margin-top: 10px;
+}
+.serviceTag{
+    float: left;
+    margin-right: 10px;
+    width: 384px;
+    height: 143px;
+    border: 1px solid #e0e0e0;
+    background-color: #fff;
+}
+.tagtop{
+    width: 254px;
+    height: 92px;
+    padding-left: 130px;
+    padding-top: 10px;
+    border-bottom: 1px solid #e0e0e0;
+    background-position: -1px -440px;
+}
+.tagtop dt{
+    line-height: 34px;
+    font-size: 16px;
+}
+.tagtop dd{
+    line-height: 18px;
+    color: #666;
+}
+.tagbottom{
+    padding-top: 9px;
+    padding-bottom: 7px;
+}
+.tagbottom li{
+    float: left;
+    width: 95px;
+   text-align: center;
+    line-height: 24px;
+    height: 24px;
+    border-right: 1px dashed #e0e0e0;
+}
+.tagpos{
+    width: 30px;
+    height: 24px;
+    margin-left: 20px;
+    margin-right: -20px;
+    background-position: -3px -550px;
+}
+.co{
+    width: 1178px;
+    height: 342px;
+    border: 1px solid #e0e0e0;
+}
+.co_count{
+    width: 198px;
+    height: 83px;
+    padding-top: 15px;
+    padding-left: 20px;
+    border-right: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: #ffffff;
+    position: relative;
+}
+.co_count dd{
+    color: #666;
+}
+.co_logo {
+    width: 939px;
+    height: 72px;
+    padding: 5px 0 21px 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+}
+.co_logo dt{
+    font-size: 16px;
+    line-height: 36px;
+}
+.co_logo dd{
+    float: left;
+    text-align: center;
+    width: 154px;
+    border-right: 1px dashed #e0e0e0;
+    line-height: 36px;
+}
+.co_logo img{
+    vertical-align: top;
+}
+.bottom_menu{
+    width: 1163px;
+    height: 238px;
+    padding: 5px 0 0 15px;
+    background-color: #ffffff;
+}
+.bottom_menu dt{
+    font-size: 12px;
+    width: 80px;
+    line-height: 34px;
+    padding-right: 29px;
+    color: #666666;
+}
+.bottom_menulist{
+    border-bottom: 1px dotted #e0e0e0;
+}
+.bottom_menulist dd{
+    float: left;
+    width: 90px;
+    line-height: 34px;
+    color: #b6b6b6;
+}
+/*底部icon雪碧图*/
+.bottom-pos{
+    background-position: 0 0;
+}
+.bottom-pos2{
+    background-position: 0 -102px;
+}
+.btm-ico-pos1{
+    background-position: 0 -205px;
+}
+.btm-ico-pos2{
+    background-position: -31px -205px;
+}
+.btm-ico-pos3{
+    background-position: -63px -205px;
+}
+.btm-ico-pos4{
+    background-position: -95px -205px;
+}
+/*城市背景图片一移去放大*/
+.citylist li a:hover img{
+    transform: scale(1.2,1.2);
+    transition: 0.8s;
+}

@@ -1,0 +1,209 @@
+body,h1{
+    margin: 0;
+}
+html{
+    height: 100%;
+    overflow: hidden;
+}
+body{
+    height: 100%;
+    overflow: auto;
+}
+p,h3,ul,li{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    -webkit-tap-highlight-color:transparent;
+}
+input {
+    -webkit-appearance:none;/*去除input默认样式*/
+}
+header{
+    height: 1.8rem;
+    border: 0.05rem solid #cdcdcf;
+    border-left: none;
+    border-right: none;
+    padding-top: 0.35rem;
+    padding-left: 0.4rem;
+    background-color: #f6f6f6;
+}
+header input{
+    float: left;
+    width: 11.725rem;
+    height: 1.4rem;
+    font-size: 0.575rem;
+    line-height: 1.4rem;
+    padding-left: 1.275rem;
+    border: 0.05rem solid #989898;
+    border-radius: 0.225rem;
+    background: url("../img/search_bg.jpg") no-repeat;
+    background-size: 100%;
+}
+header p{
+    float: right;
+    width: 1.325rem;
+    height: 0.55rem;
+    padding-top: 1.25rem;
+    background: url("../img/my.png") no-repeat;
+    background-size: 100%;
+    font-size: 0.55rem;
+    text-align: center;
+    color: #509dc9;
+    margin-right: 0.5rem;
+    margin-top: -0.15rem;
+}
+section{
+    background-color: #f2f2f2;
+    padding-top: 3.55rem;
+    font-family: "Microsoft YaHei";
+    padding-bottom: 0.4rem;
+}
+.container{
+    width: 15.2rem;
+    height: 4.1rem;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+}
+.hotel_bg{
+    background-color: #fe697c;
+}
+.hotel_bgimg{
+    background-image: url("../img/hotel_ico.png");
+}
+.flight_bg{
+    background-color: #3d99ff;
+}
+.flight_bgimg{
+    background-image: url("../img/flight_ico.png");
+}
+.tour_bg{
+    background-color: #5ebf00;
+}
+.tour_bgimg{
+    background-image: url("../img/tourbg.png");
+}
+.other_bg{
+    background-color: #fc9820;
+}
+.other_bgimg{
+    background-image: url("../img/otherbg.png");
+}
+.left_title{
+    float: left;
+    width: 5.2rem;
+    height: 3.4rem;
+    padding-top: 0.7rem;
+    border-radius: 0.225rem 0 0 0.225rem;
+    font-size: 0.7rem;
+    color: #fff;
+    text-align: center;
+    background-size: 100%;
+    margin-right: 0.05rem;
+}
+.mid_box{
+    float: left;
+    width: 4.95rem;
+    height: 4.1rem;
+    margin-right: 0.05rem;
+    font-size: 0.7rem;
+}
+.mid_top{
+    width: 4.95rem;
+    height: 2rem;
+    color: #fff;
+    text-align: center;
+    line-height:2rem ;
+   margin-bottom:  0.05rem;
+}
+.mid_bottom{
+    width: 4.95rem;
+    height: 2.05rem;
+    line-height:2.05rem ;
+    margin-bottom: 0;
+    color: #fff;
+    text-align: center;
+    line-height:2rem ;
+}
+.right_box{
+    float: left;
+    width: 4.95rem;
+    height: 4.1rem;
+    font-size: 0.7rem;
+}
+.right_top{
+    width: 4.95rem;
+    height: 2rem;
+    color: #fff;
+    text-align: center;
+    line-height:2rem ;
+    margin-bottom:  0.05rem;
+    border-radius: 0 0.225rem 0 0;
+}
+.right_bottom{
+    width: 4.95rem;
+    height: 2.05rem;
+    line-height:2.05rem ;
+    margin-bottom: 0;
+    color: #fff;
+    text-align: center;
+    /*padding-left:2rem ;*/
+    border-radius: 0 0 0.225rem 0;
+}
+.salesbg{
+    background-image: url("../img/sales_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.bottom_banner{
+   margin: 0 auto;
+    width:15.3rem;
+}
+.bannerbox{
+    float: left;
+    width: 7.55rem;
+    height: 2.95rem;
+    border: 0.05rem solid #d9d9d9;
+}
+.bannerbox h3{
+    font-size: 0.7rem;
+    color: #676767;
+    font-weight: normal;
+    margin-top: 0.6rem;
+    margin-left: 0.65rem;
+}
+.bannerbox p{
+    font-size: 0.45rem;
+    color: #a6a6a6;
+    margin-top: 0.5rem;
+    margin-left: 0.6rem;
+}
+.scoresbg{
+    border-left: none;
+    background-image: url("../img/scorebg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+footer{
+    height: 5.5rem;
+    background-color: #f2f2f2;
+}
+.bottom_option{
+    height: 2.45rem;
+    border-top:0.05rem solid #d9d9d9;
+    border-bottom:0.05rem solid #d9d9d9 ;
+    background-color: #fff;
+}
+.bottom_option div{
+    background-color: pink;
+    display: flex;
+}
+footer ul{
+    margin-top: 0.5rem;
+}
+footer li{
+    line-height: 0.7rem;
+    font-size: 0.7rem;
+    border-right: 0.05rem solid #999999;
+}

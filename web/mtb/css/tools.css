@@ -1,0 +1,27 @@
+/*reset begin*/
+body,h1{
+    margin: 0;
+}
+html{
+    height: 100%;
+    overflow: hidden;
+}
+body{
+    height: 100%;
+    overflow: auto;
+    font-size: 0.55rem;
+    color: #c5c5c5;
+    font-family: "Microsoft YaHei","tahoma";
+}
+p,h3,ul,li{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    -webkit-tap-highlight-color:transparent;
+}
+input {
+    -webkit-appearance:none;/*去除input默认样式*/
+}
+/*reset end*/

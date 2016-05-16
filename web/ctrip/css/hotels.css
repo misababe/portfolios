@@ -1,0 +1,497 @@
+.hotel_searchbox{
+    width: 380px;
+    height: 393px;
+    border-radius: 4px;
+    background-color: #2477e1;
+    padding-top:15px;
+}
+.ico_hotel{
+    display: inline-block;
+    width: 18px;
+    height: 13px;
+    background-position: -114px -128px;
+    margin-right: 11px;
+    vertical-align: top;
+}
+.formbox{
+    width: 365px;
+    height: 342px;
+    background-color: #fff;
+    margin-left: 7px;
+    border-radius: 5px;
+}
+.radiorow{
+    padding-left: 35px;
+    height: 42px;
+    line-height: 42px;
+    background-color: #f5f5f5;
+    border-radius: 5px 5px 0 0;
+}
+.formrow{
+    float: right;
+    padding-right: 35px;
+    margin-top: 11px;
+}
+.formrow label{
+    color: #555;
+    font-family: "Microsoft YaHei";
+    line-height: 30px;
+    margin-right: 10px;
+}
+.hotel_serchbtn{
+    width: 232px;
+    height: 34px;
+    border: none;
+    background-position: -62px -550px;
+    cursor: pointer;
+    margin-top: 7px;
+}
+#destination,#hotel_keyword{
+    color: #919191;
+}
+.input{
+    height: 28px;
+    width: 230px;
+    border: 1px solid #bbb;
+}
+.input_radio{
+    vertical-align: -2px;
+    margin-right: 3px;
+}
+.mr44{
+    margin-right: 44px;
+}
+.surrounding{
+    margin-top: 20px;
+    background: url("../img/hs_enterence.jpg") no-repeat;
+    width: 380px;
+    height: 176px;
+    padding-top: 35px;
+    position: relative;
+}
+.surrounding h3{
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+    font-family: "Microsoft YaHei";
+    line-height: 1.5;
+}
+.surrounding h4{
+    font-weight: normal;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    text-align: center;
+}
+.srond_item{
+    position: absolute;
+    opacity: .5;
+    background-color: #000;
+    width: 360px;
+    height: 80px;
+    padding-top: 10px;
+    padding-left: 20px;
+    border-radius: 0 0 5px 5px;
+    bottom: 0;
+    left: 0;
+}
+.srod_bg{
+    display: inline-block;
+    height: 32px;
+    width: 80px;
+    border-radius: 4px;
+    margin-right: 4px;
+    margin-bottom: 3px;
+    background-color: #9e9886;
+}
+.srond_name{
+    width: 352px;
+    height: 74px;
+    margin-left: 20px;
+    margin-top: 24px;
+    position: relative;
+    z-index: 20;
+}
+.srond_name li{
+    float: left;
+    line-height: 32px;
+    height: 32px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    width: 80px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    text-align: center;
+    cursor: pointer;
+}
+.srond_name li a{
+    color: #fff;
+}
+.hotel_magazine{
+    width: 342px;
+    height: 207px;
+    padding: 11px 18px 0 18px;
+    border: 1px solid #dedede;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    margin-top: 20px;
+}
+.hotel_magazine h4{
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    line-height: 36px;
+    border-bottom: 1px solid #dedede;
+}
+.music_hotel{
+    margin-top: 9px;
+}
+.music_hotel_title{
+    color: #666666;
+}
+.musicbox{
+    margin-right: 28px;
+}
+.update{
+    color: #b2b2b2;
+    margin-top: 15px;
+}
+.btn_music{
+    display: block;
+    width: 340px;
+    height: 41px;
+    border: 1px solid #88b6e3;
+    border-radius: 3px;
+    color: #0066cc;
+    font-size: 18px;
+    line-height: 41px;
+    text-align: center;
+    margin-top: 11px;
+    background-color: #fff;
+    position: relative;
+}
+.rightgo{
+    bottom: 15px;
+    right: 102px;
+}
+.scan_code{
+    width: 370px;
+    height: 166px;
+    border: 5px solid #ffd33a;
+    background-color: #f3f3f3;
+    margin-top: 20px;
+}
+.scan{
+    margin-left: 30px;
+    margin-top: 52px;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: bold;
+    font-family: "Microsoft YaHei";
+}
+.five{
+    font-size: 44px;
+    line-height: 64px;
+    color: #e61c1c;
+    font-weight: bold;
+    font-family: "Microsoft YaHei";
+    margin-left: 30px;
+}
+.scan_code img{
+    float: right;
+    margin-right: 25px;
+    margin-top: 23px;
+}
+.sale{
+    margin-top: 20px;
+}
+.sale h3{
+    font-size: 22px;
+    font-weight: normal;
+    font-family: "Microsoft YaHei";
+    line-height: 37px;
+    position: relative;
+}
+.sale_logo{
+    display: inline-block;
+    width: 45px;
+    height: 28px;
+    background-position: -63px -47px;
+    position: absolute;
+    bottom:14px;
+    left: 92px;
+}
+.send_email{
+    margin-top: 18px;
+    margin-bottom: 11px;
+}
+.send_email h4{
+    line-height: 30px;
+    float: left;
+}
+.send_email form{
+    float:left;
+    width: 294px;
+    margin-left: 6px;
+}
+.sendemail{
+    width: 237px;
+    height: 28px;
+    border: 1px solid #cccccc;
+    color: #999;
+}
+.sendmail_btn{
+    width: 54px;
+    height:30px;
+    border: 1px solid #cccccc;
+    background-color: #f4f4f4;
+    margin-left: -4px;
+    cursor: pointer;
+}
+.city_hotel{
+    width: 780px;
+    height: 32px;
+    border-bottom: 2px solid #5599dd;
+    margin-top: 17px;
+}
+.city_hotel h3{
+    line-height: 32px;
+    font-size: 22px;
+    font-family: "Microsoft YaHei";
+    font-weight: normal;
+    float: left;
+    width: 177px;
+    cursor: pointer;
+}
+.hotel_city_list{
+    margin-top: 8px;
+    height:24px;
+    float: left;
+}
+.hotel_city_list li{
+    float: left;
+    line-height: 24px;
+    margin-left: 19px;
+}
+#city_choosen{
+    position: relative;
+}
+.city_tri{
+    position: absolute;
+    display: inline-block;
+    width: 6px;
+    height: 3px;
+    background-position: -140px -47px;
+    bottom: 0;
+    left: 10px;
+}
+.botmtri2{
+   top: 10px;
+    left:28px;
+}
+.cityfont{
+    float: right;
+    margin-top: 4px;
+    padding-right: 15px;
+    color: #0066cc;
+    position: relative;
+}
+.rightgo{
+    bottom: 3px;
+    right:6px;
+}
+.landmark{
+    width: 778px;
+    height: 103px;
+    border: 1px solid #e2e2e2;
+    border-top: none;
+}
+.landmark li{
+    float: left;
+}
+.theme_landmark{
+    display:block;
+    width: 70px;
+    padding-top: 65px;
+    height: 37px;
+    background-position: 0 0;
+    color: #0066cc;
+    text-align: center;
+}
+.park{
+    display:block;
+    width: 91px;
+    padding-top: 82px;
+    height: 20px;
+    background-position: 0 -108px;
+    color: #666;
+    text-align: center;
+}
+.scenic{
+    background-position: 0 -216px;
+}
+.search_landmark{
+    display:block;
+    width: 70px;
+    padding-top: 65px;
+    height: 37px;
+    background-position: 0 -324px;
+    text-align: center;
+}
+.scroll_banner{
+    background-image: url("../img/0410syjn780180.jpg");
+    width: 780px;
+    height: 180px;
+}
+.scroll_item{
+    float: right;
+    width: 130px;
+    overflow: hidden;
+}
+.scroll_item li{
+    position: relative;
+    height: 36px;
+    overflow: hidden;
+}
+.scroll_item_list{
+    width: 130px;
+    height: 35px;
+    background-color: #000;
+    opacity: .5;
+    text-align: center;
+    color: #fff;
+    line-height: 35px;
+    border-bottom: 1px solid #dedede;
+    cursor: pointer;
+}
+#scroll_choosen{
+    background-color: #2577e3;
+    width: 130px;
+    height: 35px;
+    text-align: center;
+    color: #fff;
+    line-height: 35px;
+    border-bottom: 1px solid #dedede;
+}
+.scroll_item_font{
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.hot_hotel{
+    width: 780px;
+    height: 39px;
+    border-bottom: 3px solid #5599dd;
+    margin-top: 31px;
+    position: relative;
+}
+.hot_hotel h3{
+    line-height: 39px;
+    font-size: 28px;
+    font-family: "Microsoft YaHei";
+    color: #5599dd;
+    font-weight: normal;
+    float: left;
+    width: 112px;
+    cursor: pointer;
+}
+.hotel_hot_list{
+    margin-top: 15px;
+    height:24px;
+    float: left;
+}
+.hotel_hot_list li{
+    float: left;
+    line-height: 24px;
+    margin-left: 19px;
+}
+#hot_choosen{
+    position: relative;
+}
+.city_sketch{
+    position: absolute;
+    width: 186px;
+    height: 45px;
+    background-position: 0 -455px;
+    bottom: 0;
+    right: 0;
+}
+.hotel_score{
+    margin-top: 10px;
+}
+.hotel_score li{
+    height: 155px;
+    padding-top: 10px;
+    border-bottom: 1px dotted #ddd;
+}
+.hotel_score img{
+    float: left;
+}
+.detail_mid{
+    float: left;
+    margin-left: 10px;
+}
+.detail_title{
+    display: block;
+    background-position:  -75px 0;
+    width: 192px;
+    height: 22px;
+    padding-left: 31px;
+    font-size: 14px;
+    color: #0066cc;
+    font-weight: bold;
+    font-family: "Microsoft YaHei"
+}
+.area{
+    text-decoration: underline;
+    line-height: 32px;
+}
+.score{
+    display: inline-block;
+    border-right: 1px solid #ccc;
+    padding-right: 4px;
+}
+.comment{
+    line-height: 44px;
+    color: #999;
+}
+.detail_right{
+    position: relative;
+}
+.prinfo{
+    vertical-align: 6px;
+}
+.num{
+    font-family: tahoma;
+    font-size: 22px;
+    line-height: 22px;
+    color: #f60;
+}
+.nowprice{
+    color: #666;
+    line-height: 12px;
+}
+.nowpos1{
+    position: absolute;
+    right: 2px ;
+    bottom: -32px;
+}
+.nowpos{
+    position: absolute;
+    left: 18%;
+    top:70%;
+}
+.neworder{
+    color: #10a200;
+    position: absolute;
+    bottom:-100px;
+    right: 0;
+}
+.bottom_hotel_icon h3{
+    font-size: 22px;
+    font-family: "Microsoft YaHei";
+    font-weight: normal;
+    margin-bottom: 10px;
+}

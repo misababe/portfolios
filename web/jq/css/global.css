@@ -1,0 +1,29 @@
+/*sprite bg-position*/
+.bgImg{
+    background-image: url("../img/sprite.png");
+    background-repeat: no-repeat;
+}
+.pos-searchBtn{background-position: 0 0}
+.pos-download-ico{background-position: 0 -17px}
+.pos-feature-img1{background-position: 0 -62px}
+.pos-feature-img2{background-position: -140px -62px}
+.pos-feature-img3{background-position: -277px -62px}
+
+/*sprite end*/
+
+.pos-logo1{background-image: url("../img/famous.png");}
+.pos-logo2{background-image: url("../img/wordpress.png");}
+.pos-logo3{background-image: url("../img/ibm.png");}
+.pos-logo4{background-image: url("../img/neobux.png");}
+
+/*bg-icon sprite*/
+.pos-menu-ico1{
+    background-position: 0 -231px;
+    width: 20px;
+    height: 20px;
+}
+.pos-menu-ico2{
+    background-position: -33px -231px;
+    width: 22px;
+    height: 22px;
+}

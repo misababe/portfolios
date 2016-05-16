@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>【携程酒店】酒店预订,酒店价格查询,宾馆住宿推荐,网上订酒店 </title>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/global.css"/>
+    <link rel="stylesheet" href="css/tools.css"/>
+    <link rel="stylesheet" href="css/hotels.css"/>
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" href="css/fixIE.css" />
+    <script src="js/html5shiv.js"></script>
+    <script src="js/DD_belatedPNG_0.0.8a.js"></script>
+    <script >
+        DD_belatedPNG.fix('.bgImg');
+    </script>
+    <![endif]-->
+</head>
+<body>
+<header class="wrap headbox clearfix">
+    <h1 class="maintitle bgImg"><a href="index.html">携程旅行网</a></h1>
+    <div class="blankbox">
+        <!-- 此处为预留盒子放置顶层bannar-->
+    </div>
+    <ul>
+        <li class="lang br">
+            <a href="" class="bgImg" id="ch"></a>
+        </li>
+        <li class="br"><a class="color4b" href="">客服中心</a></li>
+        <li class="serviceTel color4b" style="padding-right: 0">国内<a class="color6c" href="">1010-6666</a><i class="bluetri bgImg"></i></li>
+    </ul>
+    <div class="adv"><a href=""><img src="img/adv.jpg"></a></div>
+</header>
+<section class="global_nav">
+    <div class="wrap clearfix">
+        <ul>
+            <li class="index">
+                <a class="colorwhite" href="index.html">首页</a>
+            </li>
+            <li class="navlist2">
+                <a class=" choosen3" href="hotels.html">酒店 <i class="trichoosen bgImg"></i></a>
+                <i class="tri bgImg"></i>
+            </li>
+            <li class="navlist bgImg">
+                <a href="">旅游 <i class="tri bgImg"></i></a>
+            </li>
+            <li class="navlist bgImg">
+                <a href="flights.html">机票 <i class="tri bgImg"></i></a>
+            </li>
+            <li class="navlist bgImg">
+                <a href="">火车 <i class="tri bgImg"></i></a>
+            </li>
+            <li class="navlist bgImg">
+                <a href="">汽车票 <i class="tri bgImg"></i></a>
+            </li>
+            <li class="navlist bgImg">
+                <a href="">用车 <i class="tri bgImg"></i></a>
+            </li>
+            <li class="navlist bgImg">
+                <a href="">门票 <i class="tri bgImg"></i></a>
+            </li>
+            <li class="navlist bgImg">
+                <a href="">团购 <i class="tri bgImg"></i></a>
+            </li>
+            <li class="navlist bgImg">
+                <a href="">攻略</a>
+            </li>
+            <li class="navlist bgImg">
+                <a href="">全球购 <i class="tri bgImg"></i></a>
+            </li>
+            <li class="navlist bgImg">
+                <a href="">礼品卡 <i class="tri bgImg"></i></a>
+            </li>
+            <li class="navlist bgImg">
+                <a href="">商旅 <i class="tri bgImg"></i></a>
+            </li>
+            <li class="navlist bgImg">
+                <a href="">更多 <i class="tri bgImg"></i></a>
+            </li>
+            <li class="navlist bgImg">
+                <a href="">游轮</a>
+            </li>
+
+        </ul>
+        <div class="loginBar">
+            <i class="log_icon bgImg"></i>
+            <div class="log_title">
+                <a href="" class="login awhite12">登录</a>
+                <a href="" class="regsiter awhite12">注册</a>
+                <div class="my"><a class="awhite14" href="">我的携程</a></div><i class="tri2 bgImg"></i>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="topmenu clearfix">
+    <ul>
+        <li><a class="color6c" href="">国内酒店</a></li>
+        <li><a href="">国际酒店</a></li>
+        <li><a href="">团购</a></li>
+        <li style="position: relative"><a href="">特卖酒店</a><i class="ico_sheng bgImg"></i></li>
+        <li><a href="">途家公寓</a></li>
+        <li><a href="">酒店+景点</a></li>
+        <li><a href="">客栈民宿</a></li>
+    </ul>
+    <a class="order" href="">酒店订单&gt;</a>
+</section>
+<section class="wrap clearfix mt16">
+    <section class="leftsidbar fl">
+        <div class="hotel_searchbox">
+            <span class="serchtitle"><i class="ico_hotel bgImg"></i>搜索国内酒店</span>
+            <div class="formbox">
+                <ul>
+                    <li class="radiorow">
+                         <span class="mr44">
+                                    <input class="input_radio" type="radio" name="one" checked="checked"><strong>酒店</strong>
+                                </span>
+                            <span class="mr44">
+                                    <input class="input_radio" type="radio" name="one">酒店+景点
+                                </span>
+                            <span>
+                                    <input class="input_radio" type="radio" name="one">客栈民宿
+                                </span>
+                    </li>
+                    <li class="formrow">
+                        <label for="destination">目的地</label> <input class="input" type="text" value="中文/拼音" id="destination">
+                    </li>
+                    <li class="formrow">
+                        <label for="godate">入住日期</label><input class="input" type="text" value="2015-10-12" id="godate">
+                    </li>
+                    <li class="formrow">
+                        <label for="backdate">退房日期</label><input class="input" type="text" value="2015-10-13" id="backdate">
+                    </li>
+                    <li class="formrow">
+                        <label for="hotel_level">酒店级别</label>
+                        <select class="input" id="hotel_level">
+                            <option>不限</option>
+                            <option>不限</option>
+                            <option>不限</option>
+                        </select>
+                    </li >
+                    <li class="formrow">
+                        <label for="hotel_keyword">关键词</label><input class="input" type="text" value="（选填）酒店名/地标/商圈" id="hotel_keyword">
+                    </li>
+                    <li class="formrow"> <input type="submit" class="hotel_serchbtn bgImg" value=""></li>
+                </ul>
+            </div>
+        </div>
+        <!--<div>周边景点入口</div>-->
+        <div class="surrounding">
+            <h3>还没想好周末去哪玩？</h3>
+            <h4>为您推荐感兴趣的酒店和周边景点</h4>
+            <div class="srond_item">
+                    <a class="srod_bg" href=""></a>
+                    <a class="srod_bg" href=""></a>
+                <a class="srod_bg" href=""></a>
+                <a class="srod_bg" href=""></a>
+                <a class="srod_bg" href=""></a>
+                <a class="srod_bg" href=""></a>
+                <a class="srod_bg" href=""></a>
+                <a class="srod_bg" href=""></a>
+            </div>
+            <ul class="srond_name">
+                <li><a href="">北京</a> </li>
+                <li><a href="">北京</a> </li>
+                <li><a href="">北京</a> </li>
+                <li><a href="">北京</a> </li>
+                <li><a href="">北京</a> </li>
+                <li><a href="">北京</a> </li>
+                <li><a href="">北京</a> </li>
+                <li><a href="">北京</a> </li>
+            </ul>
+        </div>
+        <div class="hotel_magazine">
+            <h4>发现·酒店期刊</h4>
+            <div class="music_hotel clearfix">
+                <img class="fl" src="img/hotel1.jpg">
+                <div class="fr musicbox clearfix">
+                    <h4 style="border-bottom: none"><a href="">十月音乐节玩乐指南</a></h4>
+                    <p class="music_hotel_title">音乐节狂欢怎能少得了豪酒店！</p>
+                    <p class="update">更新：2015.9.30</p>
+                </div>
+                <a href="" class="btn_music fl">
+                    开启发现之旅<i class="rightgo bgImg"></i>
+                </a>
+            </div>
+        </div>
+        <div class="scan_code">
+            <div class="fl">
+                <p class="scan">别说话，扫我！</p>
+                <p class="five">5元立减</p>
+            </div>
+            <img src="img/2weima.jpg">
+        </div>
+        <div class="sale">
+            <h3>促销特惠<i class="sale_logo bgImg"></i></h3>
+            <img src="img/hotel_banner1.jpg">
+            <img class="mt14" src="img/hotel_banner2.jpg">
+            <img class="mt14" src="img/hotel_banner3.jpg">
+            <img class="mt14" src="img/hotel_banner3.jpg">
+            <img class="mt14" src="img/hotel_banner3.jpg">
+            <div class="send_email clearfix">
+                <h4>订阅促销信息</h4>
+                <form>
+                    <input class="sendemail" type="text" value="输入Email（如a@b.c）"><input class="sendmail_btn" type="submit" value="订阅">
+                </form>
+            </div>
+        </div>
+        <div class="join">
+            <img src="img/join1.jpg">
+            <img class="mt20" src="img/join1.jpg">
+            <img class="mt20" src="img/join1.jpg">
+        </div>
+    </section>
+    <section class="rightcontent fr">
+        <img src="img/hotel_right_banner.jpg">
+        <div class="city_box clearfix">
+            <header class="city_hotel clearfix">
+                <h3>城市地标周边酒店</h3>
+                <ul class="hotel_city_list">
+                    <li><a href="">北京</a> </li>
+                    <li id="city_choosen"><a href="">上海</a> <i class="city_tri bgImg"></i> </li>
+                    <li><a href="">北京</a> </li>
+                    <li><a href="">北京</a> </li>
+                    <li><a href="">北京</a> </li>
+                    <li class="posr"><a href="">更多</a> <i class="bgImg botmtri2"></i></li>
+                </ul>
+                <a class="cityfont" href="">更多地标<i class="rightgo bgImg"></i></a>
+            </header>
+            <ul class="landmark clearfix">
+                <li><a href="" class="theme_landmark bgIcon">主题地标</a> </li>
+                <li><a href="" class="park bgIcon">游乐园</a></li>
+                <li><a href="" class="park scenic bgIcon">景区</a></li>
+                <li><a href="" class="park scenic bgIcon">景区</a></li>
+                <li><a href="" class="park scenic bgIcon">景区</a></li>
+                <li><a href="" class="park scenic bgIcon">景区</a></li>
+                <li><a href="" class="park scenic bgIcon">景区</a></li>
+                <li><a href="" class="park scenic bgIcon">景区</a></li>
+                <li><a href="" class="search_landmark bgIcon">搜索地标</a> </li>
+            </ul>
+        </div>
+        <div class="scroll_banner">
+            <ul class="scroll_item">
+                <li>
+                    <div class="scroll_item_list"></div>
+                    <a href="" class="scroll_item_font">登山圣地酒店77元起</a>
+                </li>
+                <li>
+                    <div class="scroll_item_list"></div>
+                    <a href="" class="scroll_item_font">登山圣地酒店77元起</a>
+                </li>
+                <li id="scroll_choosen">诗意江南99元起</li>
+                <li>
+                    <div class="scroll_item_list"></div>
+                    <a href="" class="scroll_item_font">登山圣地酒店77元起</a>
+                </li>
+                <li>
+                    <div class="scroll_item_list"></div>
+                    <a href="" class="scroll_item_font">登山圣地酒店77元起</a>
+                </li>
+            </ul>
+        </div>
+        <header class="hot_hotel clearfix">
+            <h3>热门酒店</h3>
+            <ul class="hotel_hot_list">
+                <li id="hot_choosen"><a href="">上海</a> <i class="city_tri bgImg"></i> </li>
+                <li><a href="">北京</a> </li>
+                <li><a href="">北京</a> </li>
+                <li><a href="">北京</a> </li>
+                <li><a href="">北京</a> </li>
+                <li class="posr"><a href="">更多</a> <i class="bgImg botmtri2"></i></li>
+            </ul>
+           <i class="city_sketch bgIcon"></i>
+        </header>
+        <ul class="hotel_score">
+            <li class="clearfix">
+                <img src="img/hotelpic1.jpg">
+                <div class="detail_mid">
+                    <a href="" class="detail_title bgIcon">上海中环国际酒店</a>
+                    <a class="area" href="">曹杨、真如地区</a>
+                    &nbsp;<a class="area" href="">大宁国际商业区</a>
+                    <p>
+                        <a href="" class="score">4.4分</a>
+                        <a href="">来自2003人点评</a>
+                        <p class="comment">“环境还不错”</p>
+                    </p>
+                </div>
+                <div class="detail_right">
+                        <span class="nowprice nowpos1"><span class="prinfo">￥</span><span class="num">588</span>起</span>
+                    <p class="neworder">最新预定：一小时前</p>
+                </div>
+            </li>
+            <li class="clearfix">
+                <img src="img/hotelpic1.jpg">
+                <div class="detail_mid">
+                    <a href="" class="detail_title bgIcon">上海中环国际酒店</a>
+                    <a class="area" href="">曹杨、真如地区</a>
+                    &nbsp;<a class="area" href="">大宁国际商业区</a>
+                    <p>
+                        <a href="" class="score">4.4分</a>
+                        <a href="">来自2003人点评</a>
+                    <p class="comment">“环境还不错”</p>
+                    </p>
+                </div>
+                <div class="detail_right">
+                    <span class="nowprice nowpos1"><span class="prinfo">￥</span><span class="num">588</span>起</span>
+                    <p class="neworder">最新预定：一小时前</p>
+                </div>
+            </li>
+            <li class="clearfix">
+                <img src="img/hotelpic1.jpg">
+                <div class="detail_mid">
+                    <a href="" class="detail_title bgIcon">上海中环国际酒店</a>
+                    <a class="area" href="">曹杨、真如地区</a>
+                    &nbsp;<a class="area" href="">大宁国际商业区</a>
+                    <p>
+                        <a href="" class="score">4.4分</a>
+                        <a href="">来自2003人点评</a>
+                    <p class="comment">“环境还不错”</p>
+                    </p>
+                </div>
+                <div class="detail_right">
+                    <span class="nowprice nowpos1"><span class="prinfo">￥</span><span class="num">588</span>起</span>
+                    <p class="neworder">最新预定：一小时前</p>
+                </div>
+            </li>
+            <li class="clearfix">
+                <img src="img/hotelpic1.jpg">
+                <div class="detail_mid">
+                    <a href="" class="detail_title bgIcon">上海中环国际酒店</a>
+                    <a class="area" href="">曹杨、真如地区</a>
+                    &nbsp;<a class="area" href="">大宁国际商业区</a>
+                    <p>
+                        <a href="" class="score">4.4分</a>
+                        <a href="">来自2003人点评</a>
+                    <p class="comment">“环境还不错”</p>
+                    </p>
+                </div>
+                <div class="detail_right">
+                    <span class="nowprice nowpos1"><span class="prinfo">￥</span><span class="num">588</span>起</span>
+                    <p class="neworder">最新预定：一小时前</p>
+                </div>
+            </li>
+            <li class="clearfix">
+                <img src="img/hotelpic1.jpg">
+                <div class="detail_mid">
+                    <a href="" class="detail_title bgIcon">上海中环国际酒店</a>
+                    <a class="area" href="">曹杨、真如地区</a>
+                    &nbsp;<a class="area" href="">大宁国际商业区</a>
+                    <p>
+                        <a href="" class="score">4.4分</a>
+                        <a href="">来自2003人点评</a>
+                    <p class="comment">“环境还不错”</p>
+                    </p>
+                </div>
+                <div class="detail_right">
+                    <span class="nowprice nowpos1"><span class="prinfo">￥</span><span class="num">588</span>起</span>
+                    <p class="neworder">最新预定：一小时前</p>
+                </div>
+            </li>
+            <li class="clearfix">
+                <img src="img/hotelpic1.jpg">
+                <div class="detail_mid">
+                    <a href="" class="detail_title bgIcon">上海中环国际酒店</a>
+                    <a class="area" href="">曹杨、真如地区</a>
+                    &nbsp;<a class="area" href="">大宁国际商业区</a>
+                    <p>
+                        <a href="" class="score">4.4分</a>
+                        <a href="">来自2003人点评</a>
+                    <p class="comment">“环境还不错”</p>
+                    </p>
+                </div>
+                <div class="detail_right">
+                    <span class="nowprice nowpos1"><span class="prinfo">￥</span><span class="num">588</span>起</span>
+                    <p class="neworder">最新预定：一小时前</p>
+                </div>
+            </li>
+            <li class="clearfix">
+                <img src="img/hotelpic1.jpg">
+                <div class="detail_mid">
+                    <a href="" class="detail_title bgIcon">上海中环国际酒店</a>
+                    <a class="area" href="">曹杨、真如地区</a>
+                    &nbsp;<a class="area" href="">大宁国际商业区</a>
+                    <p>
+                        <a href="" class="score">4.4分</a>
+                        <a href="">来自2003人点评</a>
+                    <p class="comment">“环境还不错”</p>
+                    </p>
+                </div>
+                <div class="detail_right">
+                    <span class="nowprice nowpos1"><span class="prinfo">￥</span><span class="num">588</span>起</span>
+                    <p class="neworder">最新预定：一小时前</p>
+                </div>
+            </li>
+            <li class="clearfix">
+                <img src="img/hotelpic1.jpg">
+                <div class="detail_mid">
+                    <a href="" class="detail_title bgIcon">上海中环国际酒店</a>
+                    <a class="area" href="">曹杨、真如地区</a>
+                    &nbsp;<a class="area" href="">大宁国际商业区</a>
+                    <p>
+                        <a href="" class="score">4.4分</a>
+                        <a href="">来自2003人点评</a>
+                    <p class="comment">“环境还不错”</p>
+                    </p>
+                </div>
+                <div class="detail_right">
+                    <span class="nowprice nowpos1"><span class="prinfo">￥</span><span class="num">588</span>起</span>
+                    <p class="neworder">最新预定：一小时前</p>
+                </div>
+            </li>
+        </ul>
+        <div class="bottom_hotel_icon">
+            <h3>更优惠酒店集团</h3>
+            <img src="img/bottom_icon.jpg">
+        </div>
+
+    </section>
+</section>
+</body>
+</html>

@@ -1,0 +1,12 @@
+/*
+reset
+ */
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,p,th,td,em,button,span{margin:0;padding:0;}
+body{ font:12px/1.5 arial,Simsun, sans-serif; color:#333; background-color: #fff; }
+img{border:none;vertical-align:middle;}
+table{border-collapse:collapse;}
+a{color:#3983E5;text-decoration:none;}
+h1,h2,h3,h4,h5{font-family:"Times New Roman",Simsun;}
+ul,ol{list-style:none;}
+table{border-collapse:collapse;}
+th,td{padding:0;}

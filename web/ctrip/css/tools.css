@@ -1,0 +1,143 @@
+.mt39{
+    margin-top: 29px;
+}
+.mt38{
+    margin-top: 28px;
+}
+.mt28{
+    margin-top: 18px;
+}
+.wd220{
+    width: 220px;
+}
+.br{
+    border-right: 1px solid #b2b2b2;
+}
+.awhite12{
+    color: #fff;
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+}
+.awhite14{
+    color: #fff;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+}
+.w383{
+    width: 383px;
+    color: #999;
+}
+.w143{
+    width: 143px;
+}
+.h30{
+    height: 30px;
+}
+.clearfix{
+    *zoom:1;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.wrap{
+    width: 1180px;
+    margin: 0 auto;
+}
+.fr{
+    float: right;
+}
+.fl{
+    float: left;
+}
+.posr{
+    position: relative;
+    display: block;
+    width: 220px;
+    height: 160px;
+    overflow: hidden;
+}
+.mt10{
+    margin-top: 10px;
+}
+.mt16{
+    margin-top: 16px;
+}
+.ml10{
+    margin-left: 10px;
+}
+.mr32{
+    margin-right: 32px;
+}
+.h220{
+    height: 220px;
+}
+.h110{
+    height: 110px;
+}
+.hlogo{
+    background-position: -28px -126px;
+    display: block;
+    width: 11px;
+    height: 11px;
+}
+.hpos{
+    position: absolute;
+    right: 1px;
+    top: -7px;;
+}
+.posrela{
+    position: relative;
+}
+ .h155{
+    height: 155px;
+}
+.h60{
+    height: 60px;
+}
+.borightnone{
+
+    border-right: none;
+}
+.pt27{
+    padding-top: 27px;
+}
+.color4b{
+    color: #4b4b4b;
+}
+.color6c{
+    color: #0066cc;
+}
+.color66{
+    color: #666;
+}
+.blankbox{
+    float: left;
+    width: 592px;
+    height: 59px;
+}
+.colorwhite{
+    color: #fff;
+    font-family: "Microsoft YaHei";
+}
+.wd228{
+    width: 228px;
+    height: 28px;
+}
+.colorcc{
+    color: #ccc;
+}
+.color88{
+    color: #888;
+}
+.ml60{
+    margin-left: 60px;
+}
+.mt14{
+    margin-top: 14px;
+    cursor: pointer;
+}
+.mt20{
+    margin-top: 20px;
+}

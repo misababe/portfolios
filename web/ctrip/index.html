@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>携程旅行网官网:酒店预订,机票预订查询,旅游度假,商旅管理</title>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/global.css"/>
+    <link rel="stylesheet" href="css/tools.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" href="css/fixIE.css" />
+    <script src="js/html5shiv.js"></script>
+    <script src="js/DD_belatedPNG_0.0.8a.js"></script>
+    <script >
+        DD_belatedPNG.fix('.bgImg');
+    </script>
+    <![endif]-->
+</head>
+<body>
+    <header class="wrap headbox clearfix">
+        <h1 class="maintitle bgImg"><a href="index.html">携程旅行网</a></h1>
+        <!--<div>顶部搜索框</div>-->
+        <div class="main_search">
+            <form action="index.html">
+                <input type="text" id="all_search" value="目的地/酒店/景点/关键字">
+                <button type="button" id="all_seachbtn" class="bgImg"></button>
+            </form>
+        </div>
+        <!--<div>顶部右侧语言选择 电话</div>-->
+        <ul>
+            <li class="lang br">
+                <a href="" class="bgImg" id="ch"></a>
+            </li>
+            <li class="br"><a class="color4b" href="">客服中心</a></li>
+            <li class="serviceTel color4b" style="padding-right: 0">国内<a href="">1010-6666</a><i class="bluetri bgImg"></i></li>
+        </ul>
+        <div class="adv"><a href=""><img src="img/adv.jpg"></a></div>
+    </header>
+    <!--<div>全站导航</div>-->
+    <!--<div>用hover做了简单的鼠标移动效果</div>-->
+    <section class="global_nav">
+        <div class="wrap clearfix">
+            <ul>
+                <li class="choosen">
+                    <a href="index.html">首页</a>
+                </li>
+                <li class="navlist bgImg ">
+                    <a href="hotels.html">酒店</a>
+                    <i class="tri bgImg"></i>
+                </li>
+                <li class="navlist bgImg">
+                    <a href="">旅游 <i class="tri bgImg"></i></a>
+                </li>
+                <li class="navlist bgImg">
+                    <a href="flights.html">机票 <i class="tri bgImg"></i></a>
+                </li>
+                <li class="navlist bgImg">
+                    <a href="">火车 <i class="tri bgImg"></i></a>
+                </li>
+                <li class="navlist bgImg">
+                    <a href="">汽车票 <i class="tri bgImg"></i></a>
+                </li>
+                <li class="navlist bgImg">
+                    <a href="">用车 <i class="tri bgImg"></i></a>
+                </li>
+                <li class="navlist bgImg">
+                    <a href="">门票 <i class="tri bgImg"></i></a>
+                </li>
+                <li class="navlist bgImg">
+                    <a href="">团购 <i class="tri bgImg"></i></a>
+                </li>
+                <li class="navlist bgImg">
+                    <a href="">攻略</a>
+                </li>
+                <li class="navlist bgImg">
+                    <a href="">全球购 <i class="tri bgImg"></i></a>
+                </li>
+                <li class="navlist bgImg">
+                    <a href="">礼品卡 <i class="tri bgImg"></i></a>
+                </li>
+                <li class="navlist bgImg">
+                    <a href="">商旅 <i class="tri bgImg"></i></a>
+                </li>
+                <li class="navlist bgImg">
+                    <a href="">更多 <i class="tri bgImg"></i></a>
+                </li>
+                <li class="navlist bgImg">
+                    <a href="">游轮</a>
+                </li>
+            </ul>
+            <!--<div>导航条右侧登录条</div>-->
+            <div class="loginBar">
+                <i class="log_icon bgImg"></i>
+                <div class="log_title">
+                    <a href="" class="login awhite12">登录</a>
+                    <a href="" class="regsiter awhite12">注册</a>
+                    <div class="my"><a class="awhite14" href="">我的携程</a></div><i class="tri2 bgImg"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--<div>首页顶部菜单</div>-->
+    <section class="wrap top_menu clearfix">
+        <h2 class="menu_title">
+            国际旅行直通车
+            <i class="menu-ico bgImg"></i>
+        </h2>
+        <ul class="topList">
+            <li>
+                <i class="icon_hotel bgImg"></i>
+                <a href="">国际酒店</a>
+            </li>
+            <li>
+                <i class="icon_flight bgImg"></i>
+                <a href="">国际机票</a>
+            </li>
+            <li>
+                <i class="icon_car bgImg"></i>
+                <a href="">国际租车</a>
+            </li>
+            <li>
+                <i class="icon_ticket bgImg"></i>
+                <a href="">国际·台湾火车票</a>
+            </li>
+            <li>
+                <i class="icon_trip bgImg"></i>
+                <a href="">出境旅游</a>
+            </li>
+            <li>
+                <i class="icon_toptrip bgImg"></i>
+                <a href="">顶级游</a>
+            </li>
+            <li>
+                <i class="icon_overticket bgImg"></i>
+                <a href="">海外门票</a>
+            </li>
+            <li>
+                <i class="icon_visa bgImg"></i>
+                <a href="">签证</a>
+            </li>
+            <li>
+                <i class="icon_insurance bgImg"></i>
+                <a href="">出境保险</a>
+            </li>
+            <li>
+                <i class="icon_wifi bgImg"></i>
+                <a href="">出境WiFi</a>
+            </li>
+        </ul>
+    </section>
+    <section class="banner">
+    </section>
+    <div class="wrap searchbox">
+        <div id="search_box" class="clearfix">
+            <div class="search-content clearfix">
+                <ul class="sidnav">
+                    <li id="highlight"><a href="">酒店</a></li>
+                    <li><a href="">机票</a></li>
+                    <li><a href="">自由行</a></li>
+                    <li><a href="">旅游</a></li>
+                    <li><a href="">火车</a></li>
+                    <li><a href="">租车</a></li>
+                    <li id="bottom"><a href="">门票</a></li>
+                </ul>
+                <div class="searchform">
+                    <div class="titlebox">
+                        <ul class="clearfix">
+                            <li id="default"><a href="">国内酒店</a><i class="botmtri bgImg"></i></li>
+                            <li><a href="">国际酒店</a></li>
+                            <li><a href="">酒店团购</a></li>
+                            <li><a href="">酒店+景点</a></li>
+                        </ul>
+                    </div>
+                    <div class="formbox">
+                        <table class="allsearch">
+                            <tbody>
+                            <tr class="nomaltr">
+                                <td class="thtitle"><label for="adress">目的地</label></td>
+                                <td colspan="3"><input type="text" id="adress" class="w383 h30" value="中文/拼音"></td>
+                            </tr>
+                            <tr class="noborder"></tr>
+                            <tr>
+                                <td class="thtitle"><label for="indate" >入住日期</label></td>
+                                <td><input type="text" id="indate" class="w143 h30" value="2015-10-12"> </td>
+                                <td class="thtitle"><label for="quitdate">退房日期</label></td>
+                                <td><input type="text" id="quitdate"  class="w143 h30" value="2015-10-13"></td>
+                            </tr>
+                            <tr class="noborder"></tr>
+                            <tr>
+                                <td class="thtitle"><label for="hotelevel">酒店级别</label></td>
+                                <td>
+                                    <select id="hotelevel">
+                                        <option>不限</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr class="noborder"></tr>
+                            <tr>
+                                <td class="thtitle"><label for="keywo">关键词</label></td>
+                                <td colspan="3"><input type="text" id="keywo" class="w383 h30" value="(选填)酒店名/地标/商圈"></td>
+                            </tr>
+                            <tr class="noborder"></tr>
+                            <tr class="btntr">
+                                <td colspan="4"><input type="button" class="searchbtn bgImg"></td>
+                            </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <section class="conbox">
+        <section class="content wrap">
+            <div class="tour">
+                <header class="subhead clearfix">
+                    <ul>
+                        <li id="headhl"><a href="">特卖汇</a><i class="bgImg btomtri"></i></li>
+                        <li><a href="">出境游</a> </li>
+                        <li><a href="">国内游</a> </li>
+                        <li><a href="">周边游</a> </li>
+                        <li><a href="">游轮</a> </li>
+                        <li><a href="">门票</a> </li>
+                        <li><a href="">顶级游</a> </li>
+                    </ul>
+                    <div class="rightflow">
+                        <a href="">北京出发</a>
+                        <i class="bgImg botmtri2"></i>
+                    </div>
+                </header>
+                <div class="tourbox">
+                    <header class="submenu clearfix">
+                        <ul>
+                            <li><a class="choosen2" href="">精选</a></li>
+                            <li><a href="">跟团游</a></li>
+                            <li><a href="">自由行</a></li>
+                            <li><a href="">当地游</a></li>
+                            <li><a href="">游轮游</a></li>
+                        </ul>
+                        <div class="rightflow2">
+                            <a href="">更多特卖会</a>
+                            <i class="rightgo bgImg"></i>
+                        </div>
+                    </header>
+                    <!--<div>移动到照片上时可以放大的哦</div>-->
+                    <div class="tourcontent clearfix">
+                        <ul class="tourlist">
+                            <li>
+                                <a href="" class="imgbox h110 wd220">
+                                    <img src="img/tour1.jpg" alt="">
+                                    <div class="item"></div>
+                                    <span class="tag_count">5.7折</span>
+                                    <i class="hui bgImg"></i>
+                                    <p class="overinfo" title="超高满意度！小清新日本九州之旅，给您一个安宁的悠闲假期～">
+                                        超高满意度！小清新日本九州之旅，给您一个安宁的悠闲假期～
+                                    </p>
+                                </a>
+                                <span class="tourtitle"><a href="">长滩岛5日自由行·每班仅限6名/直飞机票</a> </span>
+                                <div class="pricebox">
+                                    <span class="preprice">￥3499</span>
+                                    <span class="nowprice nowpos1"><span class="prinfo">￥</span><span class="num">1899</span>起</span>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="" class="imgbox h110 wd220">
+                                    <img src="img/tour2.jpg" alt="">
+                                    <div class="item"></div>
+                                    <span class="tag_count">5.7折</span>
+                                    <i class="hui bgImg"></i>
+                                    <p class="overinfo" title="超高满意度！小清新日本九州之旅，给您一个安宁的悠闲假期～">
+                                        超高满意度！小清新日本九州之旅，给您一个安宁的悠闲假期～
+                                    </p>
+                                </a>
+                                <span class="tourtitle"><a href="">长滩岛5日自由行·每班仅限6名/直飞机票</a> </span>
+                                <div class="pricebox">
+                                    <span class="preprice">￥3499</span>
+                                    <span class="nowprice nowpos1"><span class="prinfo">￥</span><span class="num">1899</span>起</span>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="" class="imgbox h110 wd220">
+                                    <img src="img/tour3.jpg" alt="">
+                                    <div class="item"></div>
+                                    <span class="tag_count">5.7折</span>
+                                    <i class="hui bgImg"></i>
+                                    <p class="overinfo" title="超高满意度！小清新日本九州之旅，给您一个安宁的悠闲假期～">
+                                        超高满意度！小清新日本九州之旅，给您一个安宁的悠闲假期～
+                                    </p>
+                                </a>
+                                <span class="tourtitle"><a href="">长滩岛5日自由行·每班仅限6名/直飞机票</a> </span>
+                                <div class="pricebox">
+                                    <span class="preprice">￥3499</span>
+                                    <span class="nowprice nowpos1"><span class="prinfo">￥</span><span class="num">1899</span>起</span>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="" class="imgbox h110 wd220">
+                                    <img src="img/tour4.jpg" alt="">
+                                    <div class="item"></div>
+                                    <span class="tag_count">5.7折</span>
+                                    <i class="hui bgImg"></i>
+                                    <p class="overinfo" title="超高满意度！小清新日本九州之旅，给您一个安宁的悠闲假期～">
+                                        超高满意度！小清新日本九州之旅，给您一个安宁的悠闲假期～
+                                    </p>
+                                </a>
+                                <span class="tourtitle"><a href="">长滩岛5日自由行·每班仅限6名/直飞机票</a> </span>
+                                <div class="pricebox">
+                                    <span class="preprice">￥3499</span>
+                                    <span class="nowprice nowpos1"><span class="prinfo">￥</span><span class="num">1899</span>起</span>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="" class="imgbox h110 wd220">
+                                    <img src="img/tour5.jpg" alt="">
+                                    <div class="item"></div>
+                                    <span class="tag_count">5.7折</span>
+                                    <i class="hui bgImg"></i>
+                                    <p class="overinfo" title="超高满意度！小清新日本九州之旅，给您一个安宁的悠闲假期～">
+                                        超高满意度！小清新日本九州之旅，给您一个安宁的悠闲假期～
+                                    </p>
+                                </a>
+                                <span class="tourtitle"><a href="">长滩岛5日自由行·每班仅限6名/直飞机票</a> </span>
+                                <div class="pricebox">
+                                    <span class="preprice">￥3499</span>
+                                    <span class="nowprice nowpos1"><span class="prinfo">￥</span><span class="num">1899</span>起</span>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="" class="imgbox h110 wd220">
+                                    <img src="img/tour6.jpg" alt="">
+                                    <div class="item"></div>
+                                    <span class="tag_count">5.7折</span>
+                                    <i class="hui bgImg"></i>
+                                    <p class="overinfo" title="超高满意度！小清新日本九州之旅，给您一个安宁的悠闲假期～">
+                                        超高满意度！小清新日本九州之旅，给您一个安宁的悠闲假期～
+                                    </p>
+                                </a>
+                                <span class="tourtitle"><a href="">长滩岛5日自由行·每班仅限6名/直飞机票</a> </span>
+                                <div class="pricebox">
+                                    <span class="preprice">￥3499</span>
+                                    <span class="nowprice nowpos1"><span class="prinfo">￥</span><span class="num">1899</span>起</span>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="" class="imgbox h110 wd220">
+                                    <img src="img/tour7.jpg" alt="">
+                                    <div class="item"></div>
+                                    <span class="tag_count">5.7折</span>
+                                    <i class="hui bgImg"></i>
+                                    <p class="overinfo" title="超高满意度！小清新日本九州之旅，给您一个安宁的悠闲假期～">
+                                        超高满意度！小清新日本九州之旅，给您一个安宁的悠闲假期～
+                                    </p>
+                                </a>
+                                <span class="tourtitle"><a href="">长滩岛5日自由行·每班仅限6名/直飞机票</a> </span>
+                                <div class="pricebox">
+                                    <span class="preprice">￥3499</span>
+                                    <span class="nowprice nowpos1"><span class="prinfo">￥</span><span class="num">1899</span>起</span>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="" class="imgbox h110 wd220">
+                                    <img src="img/tour8.jpg" alt="">
+                                    <div class="item"></div>
+                                    <span class="tag_count">5.7折</span>
+                                    <i class="hui bgImg"></i>
+                                    <p class="overinfo" title="超高满意度！小清新日本九州之旅，给您一个安宁的悠闲假期～">
+                                        超高满意度！小清新日本九州之旅，给您一个安宁的悠闲假期～
+                                    </p>
+                                </a>
+                                <span class="tourtitle"><a href="">长滩岛5日自由行·每班仅限6名/直飞机票</a> </span>
+                                <div class="pricebox">
+                                    <span class="preprice">￥3499</span>
+                                    <span class="nowprice nowpos1"><span class="prinfo">￥</span><span class="num">1899</span>起</span>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="tour_advbox">
+                            <a class="sidbar" href="">
+                                <img src="img/sidpic.png" alt="">
+                                <div class="itemsid"></div>
+                                <span class="sidinfo">你不可不看的旅游特价频道！</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hotel mt39">
+                <header class="subhead clearfix">
+                    <ul>
+                        <li id="headhl2"><a href="">国际酒店</a><i class="bgImg btomtri"></i></li>
+                        <li><a href="">国内酒店</a> </li>
+                        <li><a href="">酒店+景点</a> </li>
+                        <li><a href="">客栈民宿</a> </li>
+                        <li><a href="">团购</a> </li>
+                    </ul>
+                </header>
+                <div class="hotelbox">
+                    <div class="sidsubnav">
+                        <dl class="sid">
+                            <dt><a href="">促销</a> </dt>
+                            <dd><a href="">享购物8.5折</a> </dd>
+                            <dd><a href="">天天特价酒店</a> </dd>
+                            <dd><a href="">低至5折</a> </dd>
+                            <dd><a href="">酒店7折起</a> </dd>
+                            <dd><a href="">享购物8.5折</a> </dd>
+                        </dl>
+                        <dl class="sid">
+                            <dt><a href="">促销</a> </dt>
+                            <dd><a href="">享购物8.5折</a> </dd>
+                            <dd><a href="">酒店7折起</a> </dd>
+                            <dd><a href="">低至5折</a> </dd>
+                            <dd><a href="">享购物8.5折</a> </dd>
+                        </dl>
+                    </div>
+                    <div class="rightcitybox">
+                        <header class="submenu clearfix">
+                            <ul>
+                                <li><a class="choosen2" href="">热门城市</a></li>
+                                <li><a href="">都市购物</a></li>
+                                <li><a href="">海岛休闲</a></li>
+                                <li><a href="">旅游胜地</a></li>
+                            </ul>
+                            <div class="rightflow2">
+                                <a href="">更多国际酒店</a>
+                                <i class="rightgo bgImg"></i>
+                            </div>
+                        </header>
+                        <div class="tourcontent clearfix">
+                            <ul class="citylist fl">
+                                <li>
+                                    <a class="posr" href="">
+                                        <img src="img/city1.jpg">
+                                        <div class="squr"></div>
+                                        <div class="info">
+                                            <span class="cityname">新加坡</span>
+                                            <span class="detail">473家酒店</span>
+                                            <span class="nowprice nowpos fotwhite"><span class="prinfo">￥</span><span class="num">1899</span>起</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                    <li>
+                                        <a class="posr" href="">
+                                            <img src="img/city2.jpg">
+                                            <div class="squr"></div>
+                                            <div class="info">
+                                                <span class="cityname">东京</span>
+                                                <span class="detail">473家酒店</span>
+                                                <span class="nowprice nowpos fotwhite"><span class="prinfo">￥</span><span class="num">1899</span>起</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                <li>
+                                    <a class="posr" href="">
+                                        <img src="img/city3.jpg">
+                                        <div class="squr"></div>
+                                        <div class="info">
+                                            <span class="cityname">首尔</span>
+                                            <span class="detail">473家酒店</span>
+                                            <span class="nowprice nowpos fotwhite"><span class="prinfo">￥</span><span class="num">1899</span>起</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="posr" href="">
+                                        <img src="img/city1.jpg">
+                                        <div class="squr"></div>
+                                        <div class="info">
+                                            <span class="cityname">塞班</span>
+                                            <span class="detail">473家酒店</span>
+                                            <span class="nowprice nowpos fotwhite"><span class="prinfo">￥</span><span class="num">1899</span>起</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="posr" href="">
+                                        <img src="img/city3.jpg">
+                                        <div class="squr"></div>
+                                        <div class="info">
+                                            <span class="cityname">马来西亚</span>
+                                            <span class="detail">473家酒店</span>
+                                            <span class="nowprice nowpos fotwhite"><span class="prinfo">￥</span><span class="num">1899</span>起</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="posr" href="">
+                                        <img src="img/city2.jpg">
+                                        <div class="squr"></div>
+                                        <div class="info">
+                                            <span class="cityname">曼谷</span>
+                                            <span class="detail">473家酒店</span>
+                                            <span class="nowprice nowpos fotwhite"><span class="prinfo">￥</span><span class="num">1899</span>起</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="tour_advbox">
+                                <a class="sidbar" href="">
+                                    <img src="img/sidpic2.jpg" alt="">
+                                    <div class="itemsid"></div>
+                                    <span class="sidinfo">你不可不看的旅游特价频道！</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ticket mt39">
+                <header class="subhead clearfix">
+                    <ul>
+                        <li id="headhl"><a href="">特价机票</a><i class="bgImg btomtri"></i></li>
+                    </ul>
+                    <div class="rightflow">
+                        <a href="">北京出发</a>
+                        <i class="bgImg botmtri2"></i>
+                    </div>
+                </header>
+                <div class="ticketbox clearfix">
+                    <div class="left_content fl">
+                        <ul class="clearfix">
+                            <li><a class="country bgImg bg1" href=""></a></li>
+                            <li><a class="country bgImg bg2" href=""></a></li>
+                            <li><a class="country bgImg bg3" href=""></a></li>
+                            <li><a class="country bgImg bg4" href=""></a></li>
+                            <li><a class="country bgImg bg5" href=""></a></li>
+                        </ul>
+                        <img class="mt10" src="img/flight.jpg">
+                    </div>
+                    <div class="wd220 fl ml10">
+                        <img src="img/flight2.jpg">
+                        <img class="mt10" src="img/flight3.jpg">
+                    </div>
+                    <img class="ml10" src="img/sidpic3.jpg">
+                </div>
+            </div>
+            <div class="car mt39">
+                <header class="subhead clearfix">
+                    <ul>
+                        <li id="headhl2"><a href="">国际租车</a><i class="bgImg btomtri"></i></li>
+                        <li><a href="">国际接送机</a> </li>
+                        <li><a href="">国内租车</a> </li>
+                        <li><a href="">国内接送机</a> </li>
+                        <li><a href="">日租包车</a> </li>
+                    </ul>
+                    <div class="rightflow">
+                        <a href="">北京出发</a>
+                        <i class="bgImg botmtri2"></i>
+                    </div>
+                </header>
+                <div class="carbox">
+                    <div class="sidsubnav h220">
+                        <dl class="sid">
+                            <dt><a href="">国际租车活动</a> </dt>
+                            <dd><a href="">订国际租车就送免费GPS</a> </dd>
+                            <dd><a href="">国际租车1元即租随身wifi</a> </dd>
+                            <dd><a href="">国际租车贵了就敢赔</a> </dd>
+                            <dd><a href="">订海外酒店享北美租车5折起</a> </dd>
+                            <dd><a href="">订机票北美租车868元/7天起</a> </dd>
+                        </dl>
+                    </div>
+                    <div class="rightcitybox">
+                        <header class="submenu clearfix">
+                            <ul>
+                                <li><a class="choosen2" href="">小型轿车</a></li>
+                                <li><a href="">中型轿车</a></li>
+                                <li><a href="">大型轿车</a></li>
+                                <li><a href="">高档轿车</a></li>
+                                <li><a href="">中型SUV</a></li>
+                                <li><a href="">标准SUV</a></li>
+                            </ul>
+                            <div class="rightflow2">
+                                <a href="">更多国际酒店</a>
+                                <i class="rightgo bgImg"></i>
+                            </div>
+                        </header>
+                        <ul class="carlist">
+                            <li>
+                                <a class="imgbox h110 wd220" href=""><img src="img/car1.jpg"></a>
+                                <p class="listtitle1"><a href="">美国 洛杉矶</a> </p>
+                                <p class="listtitle2 clearfix">
+                                    <a href="">自家梦幻1号公路</a>
+                                    <span class="nowprice fr"><span class="prinfo">￥</span><span class="num">143</span>起</span>
+                                </p>
+                            </li>
+                            <li>
+                                <a class="imgbox h110 wd220" href=""><img src="img/car2.jpg"></a>
+                                <p class="listtitle1"><a href="">加拿大 温哥华</a> </p>
+                                <p class="listtitle2 clearfix">
+                                    <a href="">环游如画温哥华岛</a>
+                                    <span class="nowprice fr"><span class="prinfo">￥</span><span class="num">189</span>起</span>
+                                </p>
+                            </li>
+                            <li>
+                                <a class="imgbox h110 wd220" href=""><img src="img/car3.jpg"></a>
+                                <p class="listtitle1"><a href="">澳大利亚 墨尔本</a> </p>
+                                <p class="listtitle2 clearfix">
+                                    <a href="">自家梦幻1号公路</a>
+                                    <span class="nowprice fr"><span class="prinfo">￥</span><span class="num">122</span>起</span>
+                                </p>
+                            </li>
+                            <li>
+                                <a class="imgbox h110 wd220" href=""><img src="img/car4.jpg"></a>
+                                <p class="listtitle1"><a href="">德国 慕尼黑</a> </p>
+                                <p class="listtitle2 clearfix">
+                                    <a href="">自家梦幻1号公路</a>
+                                    <span class="nowprice fr"><span class="prinfo">￥</span><span class="num">189</span>起</span>
+                                </p>
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+            </div>
+            <!--<div>当地玩乐</div>-->
+            <div class="car mt39">
+                <header class="subhead clearfix">
+                    <ul>
+                        <li id="headhl2"><a href="">当地玩乐·海外</a><i class="bgImg btomtri"></i></li>
+                        <li><a href="">当地玩乐·国内</a> </li>
+                    </ul>
+                    <div class="rightflow">
+                        <a href="">北京出发</a>
+                        <i class="bgImg botmtri2"></i>
+                    </div>
+                </header>
+                <div class="carbox">
+                    <div class="sidsubnav h220">
+                        <dl class="sid2 clearfix">
+                            <dt><a href="">热门目的地</a> </dt>
+                            <dd><a href="">普吉岛</a> </dd>
+                            <dd><a href="">东京</a> </dd>
+                            <dd><a href="">塞班</a> </dd>
+                            <dd><a href="">马来西亚</a> </dd>
+                            <dd><a href="">济州岛</a> </dd>
+                            <dd><a href="">普吉岛</a> </dd>
+                            <dd><a href="">东京</a> </dd>
+                            <dd><a href="">塞班</a> </dd>
+                            <dd><a href="">马来西亚</a> </dd>
+                            <dd><a href="">济州岛</a> </dd>
+                        </dl>
+                    </div>
+                    <div class="rightcitybox">
+                        <header class="submenu clearfix">
+                            <ul>
+                                <li><a class="choosen2" href="">特惠推荐</a></li>
+                                <li><a href="">一日游</a></li>
+                                <li><a href="">接送机</a></li>
+                                <li><a href="">娱乐演出</a></li>
+                                <li><a href="">休闲户外</a></li>
+                                <li><a href="">当地美食</a></li>
+                                <li><a href="">班车接驳</a></li>
+                            </ul>
+                            <div class="rightflow2">
+                                <a href="">更多当地玩乐</a>
+                                <i class="rightgo bgImg"></i>
+                            </div>
+                        </header>
+                        <ul class="carlist">
+                            <li>
+                                <a class="imgbox h110 wd220" href=""><img src="img/trip1.jpg"></a>
+                                <p class="listtitle1"><a href="">【10元起抢购】夏威夷火奴鲁鲁（檀香山）国际机场→威基基酒店单程接机服务【中文，拼车】</a> </p>
+                                <p class="listtitle2 clearfix">
+                                    <a href="">自家梦幻1号公路</a>
+                                    <span class="nowprice fr"><span class="prinfo">￥</span><span class="num">199</span>起</span>
+                                </p>
+                            </li>
+                            <li>
+                                <a class="imgbox h110 wd220" href=""><img src="img/trip2.jpg"></a>
+                                <p class="listtitle1"><a href="">桃园/松山机场至台北市区酒店/台北火车站拼车接机[1元抢购]</a> </p>
+                                <p class="listtitle2 clearfix">
+                                    <a href="">中国·台北</a>
+                                    <span class="nowprice fr"><span class="prinfo">￥</span><span class="num">189</span>起</span>
+                                </p>
+                            </li>
+                            <li>
+                                <a class="imgbox h110 wd220" href=""><img src="img/trip3.jpg"></a>
+                                <p class="listtitle1"><a href="">【赠送含5000韩币T-money交通卡】首尔景福宫+仁寺洞市区经典一日游【特惠1元，每天限5人】</a> </p>
+                                <p class="listtitle2 clearfix">
+                                    <a href="">韩国·首尔</a>
+                                    <span class="nowprice fr"><span class="prinfo">￥</span><span class="num">1</span>起</span>
+                                </p>
+                            </li>
+                            <li>
+                                <a class="imgbox h110 wd220" href=""><img src="img/trip4.jpg"></a>
+                                <p class="listtitle1"><a href="">【立减88！】悉尼蓝山小团观光一日游（堪比过山车的缆车体验）</a> </p>
+                                <p class="listtitle2 clearfix">
+                                    <a href="">澳大利亚·悉尼</a>
+                                    <span class="nowprice fr"><span class="prinfo">￥</span><span class="num">1</span>起</span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--<div>全球购</div>-->
+            <div class="car mt39">
+                <header class="subhead clearfix">
+                    <ul>
+                        <li id="headhl2"><a href="">全球购</a><i class="bgImg btomtri"></i></li>
+                    </ul>
+                    <div class="rightflow">
+                        <a href="">北京出发</a>
+                        <i class="bgImg botmtri2"></i>
+                    </div>
+                </header>
+                <div class="carbox">
+                    <div class="sidsubnav h220">
+                        <dl class="sid2 clearfix">
+                            <dt><a href="">热门目的地</a> </dt>
+                            <dd class="posrela"><i class="hlogo bgImg hpos"></i> <a href="">日本</a> </dd>
+                            <dd><a href="">东京</a> </dd>
+                            <dd class="posrela"><i class="hlogo bgImg hpos"></i><a href="">法国</a> </dd>
+                            <dd><a href="">韩国</a> </dd>
+                            <dd><a href="">香港</a> </dd>
+                            <dd><a href="">普吉岛</a> </dd>
+                            <dd><a href="">美国</a> </dd>
+                            <dd><a href="">新加坡</a> </dd>
+                            <dd><a href="">英国</a> </dd>
+                            <dd><a href="">德国</a> </dd>
+                            <dd><a href="">意大利</a> </dd>
+                            <dd><a href="">西班牙</a> </dd>
+                        </dl>
+                    </div>
+                    <div class="rightcitybox">
+                        <header class="submenu clearfix">
+                            <ul>
+                                <li><a class="choosen2" href="">热门商户</a></li>
+                                <li><a href="">精品百货</a></li>
+                                <li><a href="">奢侈大牌</a></li>
+                                <li><a href="">口碑推荐</a></li>
+                                <li><a href="">新店首选</a></li>
+                            </ul>
+                            <div class="rightflow2">
+                                <a href="">更多国际酒店</a>
+                                <i class="rightgo bgImg"></i>
+                            </div>
+                        </header>
+                        <ul class="carlist">
+                            <li>
+                                <a class="imgbox h110 wd220" href=""><img src="img/shop1.jpg"></a>
+                                <p class="listtitle1"><a href="">老佛爷百货公司（奥斯曼旗舰店）Galeries Lafayette Haussmann</a> </p>
+                                <p class="listtitle2 clearfix">
+                                    <a href="">法国 • 巴黎</a>
+                                    <span class="icon_listright fr">优惠</span>
+                                </p>
+                            </li>
+                            <li>
+                                <a class="imgbox h110 wd220" href=""><img src="img/shop2.jpg"></a>
+                                <p class="listtitle1"><a href="">DFS旗下T广场（香港广东道店）DFS T Galleria Hong Kong, Canton Road</a> </p>
+                                <p class="listtitle2 clearfix">
+                                    <a href="">中国 • 香港</a>
+                                    <span class="icon_listright fr red">赠礼</span>
+                                    <span class="icon_listright fr orange">返现</span>
+                                </p>
+                            </li>
+                            <li>
+                                <a class="imgbox h110 wd220" href=""><img src="img/shop3.jpg"></a>
+                                <p class="listtitle1"><a href="">新罗免税店首尔店The Shilla Duty Free Seoul</a> </p>
+                                <p class="listtitle2 clearfix">
+                                    <a href="">韩国 • 首尔</a>
+                                    <span class="icon_listright fr yellow">促销</span>
+                                    <span class="icon_listright fr orange">返现</span>
+                                </p>
+                            </li>
+                            <li>
+                                <a class="imgbox h110 wd220" href=""><img src="img/shop4.jpg"></a>
+                                <p class="listtitle1"><a href="">必酷（JR京都店）Bic camera</a> </p>
+                                <p class="listtitle2 clearfix">
+                                    <a href="">日本·京都</a>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+            <!--<div>目的地攻略</div>-->
+            <div class="car mt39">
+                <header class="subhead clearfix">
+                    <ul>
+                        <li id="headhl2"><a href="">目的地攻略</a><i class="bgImg btomtri"></i></li>
+                        <li><a href="">旅游旗舰店</a> </li>
+                        <li><a href="">当地向导</a> </li>
+                    </ul>
+                    <div class="rightflow">
+                        <a href="">北京出发</a>
+                        <i class="bgImg botmtri2"></i>
+                    </div>
+                </header>
+                <div class="carbox">
+                    <div class="sidsubnav h220">
+                        <dl class="sid">
+                            <dt><a href="">当季推荐</a> </dt>
+                            <dd><a href="">圣托里尼：永恒的蓝白世界</a> </dd>
+                            <dd><a href="">哥本哈根：走进安徒生的童话世界</a> </dd>
+                            <dd><a href="">圣彼得堡：风光迤逦的北方威尼斯</a> </dd>
+                            <dd><a href="">清迈：文艺清新的泰北明珠</a> </dd>
+                            <dd><a href="">柏林：啤酒相约猪肘</a> </dd>
+                        </dl>
+                    </div>
+                    <div class="rightcitybox">
+                        <header class="submenu clearfix">
+                            <ul>
+                                <li><a class="choosen2" href="">旅行正当时</a></li>
+                                <li><a href="">看海悠悠乐</a></li>
+                                <li><a href="">叫你买脉脉</a></li>
+                                <li><a href="">攻略精选活动</a></li>
+                            </ul>
+                            <div class="rightflow2">
+                                <a href="">更多旅行活动</a>
+                                <i class="rightgo bgImg"></i>
+                            </div>
+                        </header>
+                        <!--<div>此行图片高度为155</div>-->
+                        <ul class="carlist">
+                            <li>
+                                <a class="imgbox h155 wd220" href="">
+                                    <img style="height: 155px" src="img/pic1.jpg">
+                                    <div class="itemsid"></div>
+                                    <span class="sidinfo">十二星座必去旅行地</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="imgbox h155 wd220" href="">
+                                    <img style="height: 155px" src="img/pic2.jpg">
+                                    <div class="itemsid"></div>
+                                    <span class="sidinfo">你最喜欢那里的雪</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="imgbox h155 wd220" href="">
+                                    <img style="height: 155px" src="img/pic3.jpg">
+                                    <div class="itemsid"></div>
+                                    <span class="sidinfo">便宜不坑爹，借个周末照样出境！</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="imgbox h155 wd220" href="">
+                                    <img style="height: 155px" src="img/pic4.jpg">
+                                    <div class="itemsid"></div>
+                                    <span class="sidinfo">十大婚礼胜地</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="raiders mt38">
+                <header class="subhead clearfix">
+                    <ul>
+                        <li id="headhl2"><a href="">旅行服务</a><i class="bgImg btomtri"></i></li>
+                    </ul>
+                </header>
+                <div class="service wrap">
+                    <div class="serviceTag">
+                        <div class="tagtop bgImg">
+                            <dl>
+                                <dt>出境wifi</dt>
+                                <dd>全球出境wifi租赁</dd>
+                                <dd>流量不限、多人共享、携带便捷、低价信号强</dd>
+                            </dl>
+                        </div>
+                        <ul class="tagbottom clearfix">
+                            <li><i class="bgImg tagpos fl"></i>日本</li>
+                            <li><i class="bgImg tagpos fl"></i>韩国</li>
+                            <li><i class="bgImg tagpos fl"></i>欧洲</li>
+                            <li style="border-right: none"><i class="bgImg tagpos fl"></i>更多</li>
+                        </ul>
+                    </div>
+                    <div class="serviceTag">
+                        <div class="tagtop bottom-pos bgBot">
+                            <dl>
+                                <dt>签证</dt>
+                                <dd>退款保障：送签前均可申请订单全额退款</dd>
+                                <dd>出签成功率 99.8%</dd>
+                            </dl>
+                        </div>
+                        <ul class="tagbottom clearfix">
+                            <li><i class="bgBot tagpos btm-ico-pos1 fl"></i>日本</li>
+                            <li><i class="bgBot tagpos btm-ico-pos2 fl"></i>韩国</li>
+                            <li><i class="bgBot tagpos btm-ico-pos3 fl"></i>欧洲</li>
+                            <li style="border-right: none"><i class="bgBot tagpos btm-ico-pos4 fl"></i>更多</li>
+                        </ul>
+                    </div>
+                    <div class="serviceTag" style="margin-right: 0">
+                        <div class="tagtop bottom-pos2 bgBot">
+                            <dl>
+                                <dt>保险</dt>
+                                <dd>携程保险，安心随行</dd>
+                                <dd>旅游定制、极速出保、便捷理赔</dd>
+                            </dl>
+                        </div>
+                        <ul class="tagbottom clearfix">
+                            <li><i class="bgBot tagpos btm-ico-pos1 fl"></i>日本</li>
+                            <li><i class="bgImg tagpos fl"></i>欧洲</li>
+                            <li><i class="bgImg tagpos fl"></i>韩国</li>
+                            <li style="border-right: none"><i class="bgImg tagpos fl"></i>更多</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="co mt39 clearfix">
+                    <div class="co_count fl">
+                        <dl>
+                            <dt>合作优惠</dt>
+                            <dd>明珠会员订酒店 礼上有里</dd>
+                            <dd>流量不限、多人共享</dd>
+                        </dl>
+                        <a class="more" href="">更多</a>
+                    </div>
+                    <dl class="co_logo fl">
+                        <dt>合作伙伴</dt>
+                        <dd><img src="img/co_logo1.jpg"></dd>
+                        <dd><img src="img/co_logo1.jpg"></dd>
+                        <dd><img src="img/co_logo1.jpg"></dd>
+                        <dd><img src="img/co_logo1.jpg"></dd>
+                        <dd><img src="img/co_logo1.jpg"></dd>
+                        <dd style="border-right: none"><img src="img/co_logo1.jpg"></dd>
+                    </dl>
+                    <div class="bottom_menu fl">
+                        <dl class="fl bottom_menulist">
+                            <dt class="fl h60">携程导航</dt>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                        </dl>
+                        <dl class="fl bottom_menulist">
+                            <dt class="fl">携程导航</dt>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                        </dl>
+                        <dl class="fl bottom_menulist">
+                            <dt class="fl">携程导航</dt>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                        </dl>
+                        <dl class="fl bottom_menulist">
+                            <dt class="fl">携程导航</dt>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                        </dl>
+                        <dl class="fl bottom_menulist">
+                            <dt class="fl">携程导航</dt>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                        </dl>
+                        <dl style="border-bottom: none" class="fl bottom_menulist">
+                            <dt class="fl">携程导航</dt>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                            <dd>酒店预订</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section class="wrap clearfix pt27">
+        <dl class="why fl">
+            <dt>为什么选择携程</dt>
+            <dd>
+                <i class="bgImg posiconbot fl"></i>
+                <span class="botmtitle">放心的服务</span>
+                <p>具竞争力的价格 无任何隐形费用</p>
+            </dd>
+            <dd class="mt28">
+                <i class="bgImg posiconbot fl "></i>
+                <span class="botmtitle">放心的服务</span>
+                <p>具竞争力的价格 无任何隐形费用</p>
+            </dd>
+        </dl>
+        <dl class="info_list fl">
+            <dt>旅游咨询</dt>
+            <dd>宾馆索引</dd>
+            <dd>宾馆索引</dd>
+            <dd>宾馆索引</dd>
+            <dd>宾馆索引</dd>
+            <dd>宾馆索引</dd>
+            <dd>宾馆索引</dd>
+            <dd>宾馆索引</dd>
+            <dd>宾馆索引</dd>
+            <dd>宾馆索引</dd>
+        </dl>
+        <dl class="info_list fl">
+            <dt>旅游咨询</dt>
+            <dd>宾馆索引</dd>
+            <dd>宾馆索引</dd>
+            <dd>宾馆索引</dd>
+            <dd>宾馆索引</dd>
+            <dd>宾馆索引</dd>
+            <dd>宾馆索引</dd>
+            <dd>宾馆索引</dd>
+            <dd>宾馆索引</dd>
+            <dd>宾馆索引</dd>
+        </dl>
+        <dl class="info_list fl borightnone">
+            <dt>旅游咨询</dt>
+            <dd>宾馆索引</dd>
+            <dd>宾馆索引</dd>
+            <dd>宾馆索引</dd>
+            <dd>宾馆索引</dd>
+            <dd>宾馆索引</dd>
+            <dd>宾馆索引</dd>
+            <dd>宾馆索引</dd>
+            <dd>宾馆索引</dd>
+            <dd>宾馆索引</dd>
+        </dl>
+    </section>
+    <footer>
+        <p class="copyright">
+            <a href="">Copyright@</a>
+            1999-2015,
+            <a href=""> ctrip.com</a>
+            . All rights reserved. |
+            <a href="">ICP证：沪B2-20050130</a>
+        </p>
+        <div class="certifi_icon">
+            <a class="honour1 bgImg" href="">信用评级</a>
+            <a class="honour2 bgImg" href="">上海工商</a>
+            <a class="honour3 bgImg" href="">诚信网站</a>
+            <a class="honour4 bgImg" href="">网络社会正希望</a>
+            <a class="honour5 bgImg" href="">上海市互联网违法与违规信息举报中心</a>
+            <a class="honour6 bgImg" href="">可信网站</a>
+            <a class="honour7 bgImg" href="">违法和不良信息举报中心</a>
+            <a class="honour8 bgImg" href="">沪公网备</a>
+        </div>
+        <a class="wrap display" href="">
+            <img class="bottomImg" src="img/bottom_bnner.jpg">
+        </a>
+    </footer>
+</body>
+</html>

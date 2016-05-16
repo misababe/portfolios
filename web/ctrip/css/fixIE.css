@@ -1,0 +1,193 @@
+.positon{
+    position: relative;
+}
+#all_search{
+    line-height: 28px;
+}
+.navlist a{
+    display: inline;
+}
+.tri{
+    display: block;
+    height: 4px;
+    line-height: 4px;
+}
+.tri2{
+    right: 0;
+    top: 20px;
+}
+.global_nav ul{
+    display: inline;
+}
+.loginBar{
+   display: inline;
+}
+.my{
+    width: 70px;
+    height: 20px;
+}
+.topList li{
+    padding-top: 3px;
+}
+.topList a{
+    display: inline;
+    margin-left: 1px;
+}
+.searchform{
+    display: inline;
+    overflow: hidden;
+}
+#default{
+}
+.titlebox li{
+    margin-bottom: -2px;
+}
+.title2{
+    display: inline;
+    zoom: 1;
+}
+.quitdate{
+    width: 95px;
+}
+.btomtri{
+    zoom: 1;
+    display: inline;
+    overflow: hidden;
+}
+.rightgo{
+    zoom: 1;
+    display: inline;
+    overflow: hidden;
+}
+.item{
+    zoom: 1;
+    display: inline;
+    overflow: hidden;
+    filter:Alpha(opacity=50);
+}
+.itemsid{
+    filter:Alpha(opacity=50);
+}
+.overinfo{
+    zoom: 1;
+    display: inline;
+    overflow: hidden;
+}
+.sidsubnav{
+    border-right: none;
+    width: 229px;
+    padding-right: 1px;
+    background: url("../img/ie_border.jpg") repeat-y right;
+}
+.tour_advbox{
+    margin-left: -10px;
+}
+.left_content{
+
+    overflow: hidden;
+}
+.bluetri{
+    zoom: 1;
+    display: inline;
+    overflow: hidden;
+}
+.ico_plane{
+    zoom: 1;
+    display: inline;
+    overflow: hidden;
+}
+.ticket_searchbox{
+    background: url("../img/ie_ticketbg.jpg") no-repeat;
+}
+.hotel_searchbox{
+    background: url("../img/hotel_formbg.jpg") no-repeat;
+}
+.formbox{
+    border: none;
+    background: none;
+}
+.formrow label{
+    vertical-align: 8px;
+}
+.searchbtn{
+    width: 145px;
+    height: 34px;
+    border: none;
+    background-position: -6px -77px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.list_content{
+    margin-right: -56px;
+}
+.up{
+    bottom: -10px;
+}
+.posterbox{
+    width: 780px;
+    overflow: hidden;
+}
+.radiorow input{
+    margin: 6px 0;
+    vertical-align: middle;
+}
+.input_radio{
+    vertical-align: -1px;
+    margin-right: 3px;
+}
+.srond_name{
+    zoom: 1;
+    overflow: hidden;
+    display: inline;
+}
+.srond_item{
+    filter:Alpha(opacity=50);
+}
+.send_email h4{
+    width: 85px;
+    font-size: 12px;
+}
+.send_email form{
+    zoom: 1;
+    overflow: hidden;
+    display: inline;
+    margin-left: 0;
+}
+/*¾ÆµêÔ²ÐÎ±³¾°°ëÍ¸Ã÷*/
+.squr{
+    filter:Alpha(opacity=40);
+}
+.leftsidbar{
+    width: 380px;
+    height: 2148px;
+    overflow: hidden;
+}
+.rightcontent{
+    width: 780px;
+    overflow: hidden;
+}
+.city_tri{
+    zoom: 1;
+    overflow: hidden;
+    display: inline;
+    bottom: -1px;
+}
+.hotel_city_list{
+    overflow: hidden;
+}
+.scroll_item li{
+    margin-bottom: -3px;
+}
+/*¾Æµê»ÃµÆÆ¬Ð§¹ûÓÒ²à°ëÍ¸Ã÷Ìõ*/
+.scroll_item_list{
+    filter:Alpha(opacity=50);
+}
+#scroll_choosen{
+    margin-bottom: 0;
+}
+.hotel_hot_list{
+    overflow: hidden;
+}
+.city_sketch{
+    bottom: -1px;
+}

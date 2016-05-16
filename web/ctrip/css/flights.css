@@ -1,0 +1,388 @@
+a{color:#333;text-decoration:none;}
+.ticket_searchbox{
+    width: 380px;
+    height: 343px;
+    border-radius: 4px;
+    background-color: #2477e1;
+    padding-top:15px;
+}
+.formbox{
+    width: 335px;
+    /*height: 293px;*/
+    padding: 10px 0 0 35px;
+    background-color: #fff;
+    margin-left: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    overflow: hidden;
+    vertical-align: top;
+
+}
+.ico_plane{
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    background-position: -63px -126px;
+    margin-right: 11px;
+    vertical-align: top;
+}
+.serchtitle{
+    display: block;
+    width: 367px;
+    font-size: 18px;
+    line-height: 18px;
+    color: #fff;
+    margin-left: 13px;
+    margin-bottom: 13px;
+}
+.formrow{
+    line-height: 30px;
+    margin-bottom: 8px;
+}
+.input_radio{
+    vertical-align: -2px;
+    margin-right: 3px;
+}
+.input_radio2{
+    vertical-align: -2px;
+    margin-right: 10px;
+}
+.hotel_searchtitle{
+    display: inline-block;
+    margin-right: 10px;
+    width: 56px;
+}
+.btn{
+    padding-top: 30px;
+    /*height: 40px;*/
+    overflow: hidden;
+}
+.maps{
+    margin-top: 5px;
+    width: 290px;
+    height: 58px;
+    padding-left: 88px;
+    padding-top: 6px;
+    border: 1px solid #cacaca;
+    border-top: 4px solid #1476ff;
+    background-position: 0 -629px;
+}
+.service{
+    margin-top: 15px;
+}
+.fonttitle{
+    color: #5b657e;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: "Microsoft YaHei";
+}
+.fonttitle2{
+    color: #5b657e;
+    font-size: 18px;
+    line-height: 38px;
+    font-family: "Microsoft YaHei";
+}
+.toolbox{
+    padding-top: 5px;
+}
+.displ{
+    display: block;
+    margin-right: 3px;
+    margin-top: 10px;
+    width: 93px;
+    height: 93px;
+}
+.clock{
+    background-position: -252px -38px;
+}
+.sit{
+    background-position: -358px -38px;
+}
+.meal{
+    background-position: -252px -142px;
+}
+.time{
+    width: 92px;
+    background-position: -358px -142px;
+    margin-right: 0;
+}
+.flight_query b{
+    color: #418ad5;
+}
+.flight_query{
+    width: 370px;
+    height: 83px;
+    border-radius: 0 0 10px 10px;
+    background-color: #e0f0ff;
+    margin-top: 3px;
+    padding-top: 13px;
+    padding-left: 10px;
+}
+.radiorow{
+    line-height: 32px;
+}
+.round{
+    width: 290px;
+    height: 24px;
+    border-radius: 12px 0 0 12px;
+    border: 1px solid #2a61a8;
+}
+.roundbtn{
+    width: 54px;
+    height: 25px;
+    border: 1px solid #2a61a8;
+    background-color: #4395e9;
+    color: #fff;
+    border-radius: 0 12px 12px 0;
+    cursor: pointer;
+}
+.chooseus{
+    padding-top: 25px;
+}
+.slogan{
+    display: block;
+    width: 366px;
+    height: 123px;
+    padding: 20px 0 0 12px;
+    border-radius: 4px;
+    margin-top: 13px;
+    border: 1px solid #badeff;
+   overflow: hidden;
+    background: url("../img/choose_index.png") center;
+}
+.notice{
+    padding-top: 20px;
+}
+.notice ul{
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.notice li{
+    line-height: 22px;
+}
+.color99{
+    color: #999;
+}
+.discount header{
+    border-bottom: 1px solid #999;
+}
+.dis_list{
+    position: relative;
+    padding-top: 10px;
+}
+.prev,.next{
+    position: absolute;
+    top: 35px;
+    width: 20px;
+    height: 32px;
+}
+.prev{
+    background-position: -184px -286px;
+}
+.next{
+    background-position: -185px -324px;
+    right: 0;
+}
+.guohang{
+    background-position: -178px -366px;
+    display: inline-block;
+    width: 14px;
+    height: 16px;
+    vertical-align: -2px;
+}
+.discount_item{
+    width: 182px;
+    margin-right: 55px;
+}
+.discount_item dt{
+    font-weight: normal;
+    font-size: 14px;
+}
+.discount_item dd{
+    line-height: 24px;
+}
+.discount_item a{
+    color: #1975d1;
+}
+.list_content{
+    padding-left: 56px;
+}
+.flight_date{
+    color: #a3a3a3;
+    margin-right: 5px;
+    font-size: 10px;
+}
+.flight_price{
+    font-weight: bold;
+    color: #bb0000;
+    font-size: 10px;
+    margin-left: 55px;
+}
+.calender{
+    width: 780px;
+    overflow: hidden;
+}
+.calender header{
+    height: 40px;
+    border-bottom: 3px solid #3983e5;
+    position: relative;
+}
+.up{
+    position: absolute;
+    background-position: -241px -324px;
+    width: 10px;
+    height: 9px;
+    bottom: -5px;
+    left: 37px;
+}
+.calender_item{
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.calender_item li{
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 40px;
+    padding-right: 30px;
+}
+.calender_item_content{
+    width: 764px;
+    height: 408px;
+    background-color: #f1f1f1;
+    margin-top: 10px;
+    padding: 8px;
+}
+.calender_item_content li{
+    float: left;
+    position: relative;
+    margin-right: 1px;
+}
+.calender_square{
+    width: 38px;
+    height: 25px;
+    background-color: #000;
+    opacity: .3;
+    position: absolute;
+    top:0;
+    left:10px;
+}
+.city_pic p{
+    color: #fff;
+    position: absolute;
+    top: 4px;
+    left: 16px;
+}
+.noTag{
+    float: left;
+    width: 171px;
+    padding: 7px 12px 35px 7px;
+    background-color: #fff;
+    border-bottom: 1px solid #d7d7d7;
+    margin-right: 1px;
+    margin-bottom: 5px;
+    position: relative;
+}
+.flight_line{
+    line-height: 24px;
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+}
+.calender_date{
+    line-height: 21px;
+    font-size: 14px;
+    color: #999;
+}
+.count{
+    position: absolute;
+    width: 37px;
+    height: 17px;
+    border: 1px solid #c5cfd3;
+    background-color: #f0f3f5;
+    color: #9ea8ae;
+    right: 71px;
+    text-align: center;
+}
+.line_price{
+    font-size: 16px;
+    font-weight: bold;
+    color: #bb0000;
+    position: absolute;
+    bottom: 14px;
+    right: 14px;
+}
+.haveTag{
+    position: relative;
+    float: left;
+    width: 171px;
+    padding: 32px 12px 40px 7px;
+    background-color: #fff;
+    border-bottom: 1px solid #d7d7d7;
+    margin-right: 1px;
+}
+.tag{
+    width: 46px;
+    height: 18px;
+    color: #fff;
+    background-color: #ff7d2d;
+    position: absolute;
+    left: 0;
+    top: 8px;
+}
+.posterbox{
+    margin-top: 20px;
+}
+.posterbox li{
+    float: left;
+    position: relative;
+    margin-right: 1px;
+}
+.poster_item{
+    width: 194px;
+    height: 127px;
+    background-position: -252px -313px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.posterbox p{
+    color: #fff;
+    font-family: "Microsoft YaHei";
+    font-size: 18px;
+    font-weight: bold;
+    float: right;
+    margin-right: 16px;
+    margin-top: 60px;
+    text-align: right;
+}
+.foot_menu{
+    width: 1158px;
+    height: 180px;
+    margin: 20px auto;
+    border: 1px solid #dedede;
+    line-height: 24px;
+    padding: 10px;
+}
+.foot_menu h3{
+    font-weight: normal;
+    color: #999;
+    font-size: 12px;
+}
+.foot_menu a{
+    color: #999;
+    margin-right: 10px;
+}
+.bottom_nav{
+    width: 920px;
+    margin:0 auto;
+    line-height: 18px;
+    text-align: center;
+    word-break: keep-all;
+    margin-bottom: 11px;
+}
+.bottom_nav a{
+    color: #4c4c4c;
+}
+.bottom_nav a:hover{
+    text-decoration: underline;
+}

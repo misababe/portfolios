@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/mobil.css"/>
+    <script>
+        var iScale = 1 / window.devicePixelRatio;
+        document.write('<meta name="viewport" content="width=device-width,initial-scale='+iScale+',minimum-scale='+iScale+',maximum-scale='+iScale+',user-scalable=no"/>');
+    </script>
+    <script>
+        var iWidth = document.documentElement.clientWidth;
+        document.getElementsByTagName('html')[0].style.fontSize = iWidth / 16 + 'px';
+    </script>
+</head>
+<body>
+<!--固定顶端搜索栏-->
+<header id="top-searchBar" class="clearfix">
+    <i class="tao-ico"></i>
+    <form method="post" class="fr">
+        <input type="button" class="top-search" value="寻找宝贝店铺">
+    </form>
+</header>
+<!--固定底部菜单-->
+<ul class="bottom-nav clearfix">
+    <li>首页</li>
+    <li>物流</li>
+    <li>购物车</li>
+    <li>我的淘宝</li>
+    <li>更多</li>
+</ul>
+<!--客户端推广链接-->
+<section id="app-link" class="clearfix">
+    <div class="ad-app">
+        <i class="app-close-btn"></i>
+        <i class="tb-icon"></i>
+        <span>上客户端，领专属好礼！</span>
+    </div>
+    <span class="text1">立即领取</span>
+</section>
+<!--banner广告条-->
+<section id="banner">
+    <img src="img/banner.jpg">
+</section>
+<!--双十一link button-->
+<section class="sale-festival">
+    <img src="img/sale-btn.jpg">
+</section>
+<nav id="global-nav">
+    <ul class="clearfix">
+        <li>
+            <img src="img/nav-tmall.jpg">
+            <p>天猫</p>
+        </li>
+        <li>
+            <img src="img/nav-ju.jpg">
+            <p>聚划算</p>
+        </li>
+        <li>
+            <img src="img/nva-tsh.jpg">
+            <p>淘生活</p>
+        </li>
+        <li>
+            <img src="img/nav-tdd.jpg">
+            <p>淘点点</p>
+        </li>
+        <li>
+            <img src="img/nav-cz.jpg">
+            <p>充值</p>
+        </li>
+        <li>
+            <img src="img/nav-go.jpg">
+            <p>阿里旅行</p>
+        </li>
+        <li>
+            <img src="img/nav-ljb.jpg">
+            <p>领金币</p>
+        </li>
+        <li>
+            <img src="img/nav-sort.jpg">
+            <p>分类</p>
+        </li>
+    </ul>
+</nav>
+<section class="double11-news clearfix">
+    <div class="news-ico"></div>
+    <ul class="news-list">
+        <li>双十一最幸福的竟然是小鲜肉的脑残粉···</li>
+        <li>我们说的不是古装，GUESS王阳明···</li>
+    </ul>
+</section>
+<!--双十一主会场-->
+<section id="double11-content">
+    <div class="double11-banner">
+        <img src="img/banner2.jpg">
+        <ul class="w150-box clearfix">
+            <li><img src="img/shy1.jpg"></li>
+            <li><img src="img/shy2.jpg"></li>
+            <li><img src="img/shy3.jpg"></li>
+            <li><img src="img/shy4.jpg"></li>
+        </ul>
+    </div>
+    <!--双十一精选会场-->
+    <div class="selected">
+        <h3 class="double11-title"></h3>
+        <ul class="w150-box clearfix">
+            <li><img src="img/s1.jpg"></li>
+            <li><img src="img/s2.jpg"></li>
+            <li><img src="img/s3.jpg"></li>
+            <li><img src="img/s4.jpg"></li>
+            <li><img src="img/s5.jpg"></li>
+            <li><img src="img/s6.jpg"></li>
+            <li><img src="img/s7.jpg"></li>
+            <li><img src="img/s8.jpg"></li>
+        </ul>
+    </div>
+    <div class="theme">
+        <h3 class="double11-title"></h3>
+        <ul class="w150-box clearfix">
+            <li><img src="img/s9.jpg"></li>
+            <li><img src="img/s10.jpg"></li>
+            <li><img src="img/s11.jpg"></li>
+            <li><img src="img/s12.jpg"></li>
+        </ul>
+    </div>
+</section>
+<!--首页主体-->
+<section class="main-conent">
+    <!--/*淘抢购等一级菜单*/-->
+    <div class="a-menu clearfix">
+        <!--淘抢购-->
+        <div class="panic-buy">
+            <img src="img/taoqg.jpg">
+            <p class="font1">御龙阁蚕丝1+4子母被</p>
+            <img src="img/time.jpg">
+            <img src="img/pic1.jpg">
+        </div>
+        <div class="goods">
+            <img src="img/goods.jpg">
+            <p class="font1">逼格单品&nbsp;潮范爆表</p>
+            <img  class="right-bgpos" src="img/pic2.jpg">
+        </div>
+        <div class="shopping">
+            <h4 class="">爱逛街</h4>
+            <p>爱淘女生都在逛</p>
+            <img src="img/pic3.jpg">
+        </div>
+        <div class="daily">
+            <h4 class="">每日首发</h4>
+            <p>找品牌新款?戳↓</p>
+            <img src="img/pic4.jpg">
+        </div>
+    </div>
+    <!--一级模块标题-->
+    <h2 class="block-title">
+        <img src="img/title1.jpg">
+    </h2>
+    <!--分类：超实惠-->
+        <ul class="modular benefit clearfix">
+            <li class="w256">
+                <h4 class="title1">
+                    聚划算<i class="arrow arr-orange"></i>
+                </h4>
+                <b>品牌联合 19.9元起！</b>
+                <img src="img/pic5.jpg">
+            </li>
+            <li class="w127">
+                <h5 class="title2">非常大牌</h5>
+                <b>秋装新品会</b>
+                <img src="img/pic6.jpg">
+            </li>
+            <li class="w127">
+                <h5 class="title2">全球精选</h5>
+                <b>保税1折起</b>
+                <img src="img/pic7.jpg">
+            </li>
+            <li class="w127">
+                <h5 class="title2">超值量贩</h5>
+                <b>0.01元疯抢</b>
+                <img src="img/pic8.jpg">
+            </li>
+            <li class="w256">
+                <h4 class="title1">
+                   天天特价
+                </h4>
+                <b>我们划算着呢！</b>
+                <img src="img/pic9.jpg">
+            </li>
+            <li class="w127">
+                <h5 class="title2">周末淘宝</h5>
+                <b>买2送1</b>
+                <img src="img/pic10.jpg">
+            </li>
+            <li class="w127">
+                <h5 class="title2">免费试用</h5>
+                <b>手机0元领</b>
+                <img src="img/pic11.jpg">
+            </li>
+            <li class="w127">
+                <h5 class="title2">淘清仓</h5>
+                <b>2件裙59元</b>
+                <img src="img/pic12.jpg">
+            </li>
+        </ul>
+    <!--一级模块标题 好品质-->
+    <h2 class="block-title">
+        <img src="img/title2.jpg">
+    </h2>
+    <ul class="modular quality clearfix">
+        <li class="w382 bg-ugg">
+            <h4 class="title3">全球购</h4>
+            <p class="ml16">不早啦 提前囤温暖</p>
+        </li>
+        <li class="w257 bg-xie">
+            <h4 class="title3">中国质造</h4>
+            <p class="ml16">真皮中筒靴</p>
+        </li>
+        <li class="w127">
+            <h5>聚名品</h5>
+            <p>秋冬轻盈风</p>
+            <img src="img/pic13.jpg">
+        </li>
+        <li class="w127">
+            <h5>苏宁易购</h5>
+            <p>双11预售</p>
+            <img src="img/pic14.jpg">
+        </li>
+        <li class="w127">
+            <h5>喵鲜生</h5>
+            <p>1分抢石榴</p>
+            <img src="img/pic15.jpg">
+        </li>
+        <li class="w127">
+            <h5>品牌街</h5>
+            <p>什么牌子好</p>
+            <img src="img/pic16.jpg">
+        </li>
+        <li class="w127">
+            <h5>俪人购</h5>
+            <p>温暖针织衫</p>
+            <img src="img/pic17.jpg">
+        </li>
+    </ul>
+    <!--一级模块标题 有特色-->
+    <h2 class="block-title">
+        <img src="img/title3.jpg">
+    </h2>
+    <ul class="modular benefit special clearfix">
+        <li class="w256">
+            <h4 class="title1">
+                拍卖会
+            </h4>
+            <b>政府公务车限量疯抢！</b>
+            <img src="img/pic19.jpg">
+        </li>
+        <li class="w127">
+            <h5 class="title2">司法拍卖</h5>
+            <b>贷款学区房</b>
+            <img src="img/pic20.jpg">
+        </li>
+        <li class="w127">
+            <h5 class="title2">限时拍</h5>
+            <b>Dior戴妃包</b>
+            <img src="img/pic21.jpg">
+        </li>
+        <li class="w127">
+            <h5 class="title2">全民抢拍</h5>
+            <b>6s一元起</b>
+            <img src="img/pic22.jpg">
+        </li>
+        <li class="w256">
+            <h4 class="title1">
+                特色中国
+            </h4>
+            <b>现烧现烤十三香小龙虾</b>
+            <img src="img/pic23.jpg">
+        </li>
+        <li class="w127">
+            <h5 class="title2">周末淘宝</h5>
+            <b>买2送1</b>
+            <img src="img/pic24.jpg">
+        </li>
+        <li class="w127">
+            <h5 class="title2">免费试用</h5>
+            <b>手机0元领</b>
+            <img src="img/pic25.jpg">
+        </li>
+        <li class="w127">
+            <h5 class="title2">淘清仓</h5>
+            <b>2件裙59元</b>
+            <img src="img/pic26.jpg">
+        </li>
+    </ul>
+    <!--banner 家电广告-->
+    <div class="bannerImg">
+        <img src="img/banner3.jpg">
+    </div>
+    <!--模块标题“热门市场” 右侧更多-->
+    <h2 class="block-title">
+        <img class="size-hot-market" src="img/title4.jpg">
+        <img class="pos-more" src="img/more.jpg">
+    </h2>
+    <ul class="hot-market clearfix">
+        <li class="w319 shoes"></li>
+        <li class="w320 clothes"></li>
+        <li class="w319 fl">
+            <img src="img/pic30.jpg">
+        </li>
+        <li class="w319 fl">
+            <img src="img/pic31.jpg">
+        </li>
+    </ul>
+    <div class="banner4"><img src="img/banner4.jpg"></div>
+    <section class="daily-shop-box">
+    <div class="daily-shop clearfix">
+        <h3>每日好店</h3>
+        <span class="update">更新40个好店<i class="ico-arr"></i></span>
+        <img src="img/pic-bot.jpg">
+    </div>
+    </section>
+    <!--猜你喜欢-->
+    <h2 class="block-title">
+       <span>猜你喜欢</span>
+    </h2>
+    <ul class="guess-adv clearfix">
+        <li>
+            <img src="img/adv2.jpg">
+            <p class="adv-title">
+                【聚变频】Meida/美的 M3-LLL3RC高端变频微电弧额画册耦合哦侧次i
+            </p>
+            <span class="adv-price" >￥5689.0</span>
+        </li>
+        <li>
+            <img src="img/adv1.jpg">
+            <p class="adv-title">
+                【聚变频】Meida/美的 M3-LLL3RC高端变频微电弧额画册耦合哦侧次i
+            </p>
+            <span class="adv-price" >￥689.0</span>
+        </li>
+    </ul>
+    <!--底部-->
+    <section class="bottom">
+        <p>你竟然拉到了底部，下个整点再来挑战</p>
+        <img src="img/bottom-banner.jpg">
+    </section>
+</section>
+<footer>
+    <ul class="clearfix">
+        <li>登录</li>
+        <li>注册</li>
+        <li>电脑版</li>
+        <li>用户反馈</li>
+    </ul>
+    <p>©2015浙 B2-20080224 服务中心</p>
+</footer>
+</body>
