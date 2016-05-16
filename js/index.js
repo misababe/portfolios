@@ -5,10 +5,10 @@ $(function() {
     window.onresize = function(){
         parallax();
     }
-    $(".ajax-link").on('click',function(){
-        console.log($(".ajax-link").index(this));
-        goLink($(".ajax-link").index(this));
-    });
+    //$(".ajax-link").on('click',function(){
+    //    console.log($(".ajax-link").index(this));
+    //    goLink($(".ajax-link").index(this));
+    //});
 
     /*-------------------------------------------
      ”“≤‡ ”≤Ó–ßπ˚
