@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>吃腰子吗</title>
+		<!--设置初始比例（1：1像素还原）-->
+		<script>
+			var iScale = 1 / window.devicePixelRatio;
+			document.write('<meta name="viewport" content="width=device-width,initial-scale='+iScale+',minimum-scale='+iScale+',maximum-scale='+iScale+',user-scalable=no"/>');
+		</script>
+		<!--动态设置html字体大小-->
+		<script>
+			var iWidth = document.documentElement.clientWidth;
+			document.getElementsByTagName('html')[0].style.fontSize = iWidth / 15 + 'px';
+			window.onresize = function(){
+				var iWidth = document.documentElement.clientWidth;
+				document.getElementsByTagName('html')[0].style.fontSize = iWidth / 15 + 'px';
+			}
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+		<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
+		<link rel="stylesheet" type="text/css"  href="css/index.css" />
+		<style type="text/css">
+			.fp-tableCell{
+				vertical-align: top;
+			}
+		</style>
+	</head>
+	<body>
+		<section class="content_main">
+			<div class="content_bar" id="dowebok">
+				<div class="page section section1" data-menuanchor="page1">
+					<div class="sheep_icon icon_img"></div>
+					<div class="meat_icon icon_img"></div>
+					<div class="meat_s_icon icon_img"></div>
+					<div class="cloud_bar animated bounceInRight delay-1">
+						<img src="img/cloud.png"/>
+					</div>
+					<div class="slogn_bar animated bounceIn">
+						<img src="img/slogn.png"/>
+					</div>
+					<div class="fork_bar animated slideInLeft delay-1">
+						<img src="img/fork.png"/>
+					</div>
+					<div class="lamb_bar animated bounceInLeft delay-2">
+						<img src="img/lamb.png"/>
+					</div>
+					<div class="a_link_bar animated bounceIn delay-3">
+						<a href="#page2" class="a_link">他在害怕什么？</a>
+					</div>
+				</div>
+				<div class="page section section2" data-menuanchor="page2">
+					<div class="sheep_icon icon_img"></div>
+					<div class="page_title">
+						<h2>望京最懂你的品质沙龙</h2>
+						<span class=""></span>
+					</div>
+					<div class="page_main">
+						<div class="page_info animated">
+							<p class="page_text">有人说：“感觉每次理发就是一次赌博，而我从来没赢过。”</p>
+							<img class="bet_img" src="img/bet.png"/>
+						</div>
+					</div>
+					<div class="up_icon_bar">
+						<a href="#page3" class="up_icon_main">
+							<img src="img/up_icon.png"/>
+						</a>
+					</div>
+				</div>
+				<div class="page section section3" data-menuanchor="page3">
+					<div class="sheep_icon icon_img"></div>
+					<div class="page_title">
+						<h2>辛辛苦苦留半年</h2>
+						<span class=""></span>
+					</div>
+					<div class="page_main">
+						<div class="page_info animated">
+							<p class="page_text">剪之前想换发型，<br/>剪之后想换脸型。</p>
+							<div class="link_bar">
+								<ul class="link_list">
+									<li class="link_item">胖脸</li>
+									<li class="link_item">变瘦脸</li>
+									<li class="link_item">没剪好</li>
+									<li class="link_item">更胖了</li>
+								</ul>
+							</div>
+							<img class="bface_img animated "  src="img/bigface.png"/>
+						</div>
+					</div>
+					<div class="up_icon_bar">
+						<a href="#page4" class="up_icon_main">
+							<img src="img/up_icon.png"/>
+						</a>
+					</div>
+				</div>
+				<div class="page section section4" data-menuanchor="page4">
+					<div class="sheep_icon icon_img"></div>
+					<div class="page_title">
+						<h2>一剪回到解放前</h2>
+						<span class=""></span>
+					</div>
+					<div class="page_main">
+						<div class="page_info animated">
+							<p class="page_text">理发师的一厘米有这么长<br/>————————————————。”</p>
+							<img class="bet_img" src="img/1cm.png"/>
+						</div>
+					</div>
+					<div class="up_icon_bar">
+						<a href="#page5" class="up_icon_main">
+							<img src="img/up_icon.png"/>
+						</a>
+					</div>
+				</div>
+				<div class="page section section5" data-menuanchor="page5">
+					<div class="sheep_icon icon_img"></div>
+					<div class="page_title">
+						<h2>禾木国际<br/>望京最懂你的<br/>品质沙龙</h2>
+						<span class=""></span>
+					</div>
+					<div class="page_main">
+						<div class="ui_bar">
+							<p class="page_text">望京彩虹桥边星源国际有一家店<br/>叫禾木<br/>开了好多年了。</p>
+						</div>
+						<div class="group_bar">
+							<div class="group_left">
+								<img src="img/group_left.png"/>
+							</div>
+							<div class="group_right">
+								<img src="img/group_right.png"/>
+							</div>
+						</div>
+					</div>
+					<div class="up_icon_bar">
+						<a href="#page6" class="up_icon_main">
+							<img src="img/up_icon.png"/>
+						</a>
+					</div>
+				</div>
+				<div class="page section section6" data-menuanchor="page6">
+					<div class="sheep_icon icon_img"></div>
+					<div class="page_title">
+						<h2>他们做的造型都是酱婶儿的</h2>
+						<span class=""></span>
+					</div>
+					<div class="page_main">
+						<div class="ui_bar">
+							<p class="page_text anTextLeft"></p>
+						</div>
+						<div class="ui_img_bar">
+							<img class="ui_img" src="img/ui.png"/>
+						</div>
+					</div>
+					<div class="up_icon_bar">
+						<a href="#page7" class="up_icon_main">
+							<img src="img/up_icon.png"/>
+						</a>
+					</div>
+				</div>
+				<div class="page section section7" data-menuanchor="page7">
+					<div class="sheep_icon icon_img"></div>
+					<div class="page_title">
+						<h2>专长于高品质的造型设计<br/>紧跟潮流的互动烫染体验、造型管理</h2>
+						<span class=""></span>
+					</div>
+					<div class="page_main">
+						<div class="ui_bar">
+							<p class="page_text">最后，小妖终于得到了他梦寐以求的造型。</p>
+						</div>
+						<img class="tuo2 animated2 bounceInRight delay-1" src="img/tuo2.png"/>
+						<div class="show_bar">
+							<div class="show_bg"></div>
+							<div class="show_main">
+								<img class="" src="img/tuo.png"/>
+							</div>
+						</div>
+						<div class="button_bar">
+							<a class="agin" href="#page1">再看一遍</a>
+							<a id="share" class="share" href="#">分享领券</a>
+						</div>
+					</div>
+					<div id="share_main" class="share_main">
+						<div class="share_line_bar">
+							<img src="img/line.png"/>
+						</div>
+						<p class="share_text">点击右上角分享哦~</p>
+						<div class="small_fork_bar">
+							<img src="img/fork.png"/>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+	<script src="js/fastclick.js"></script>
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/jquery.fullPage.min.js"></script>
+	<script type="text/javascript">
+		window.addEventListener('load', function() {
+			FastClick.attach(document.body);
+		}, false);
+		$(function(){
+			$('#dowebok').fullpage({
+				'anchors': ['page1', 'page2', 'page3','page4', 'page5', 'page6', 'page7'],
+				'css3': true,
+				afterLoad: function(anchorLink, index){
+					if(index == '1'){
+						$('.section1').find('.cloud_bar').show(0).addClass('bounceInRight delay-1');
+						$('.section1').find('.slogn_bar').show(0).addClass('bounceIn');
+						$('.section1').find('.fork_bar').show(0).addClass('slideInLeft delay-1');
+						$('.section1').find('.lamb_bar').show(0).addClass('bounceInLeft delay-2');
+						$('.section1').find('.a_link_bar').show(0).addClass('bounceIn delay-3');
+					}
+					if(index == '2'){
+						$('.section2').find('.page_title > span').addClass('page_title_bg');
+						$('.section2').find('.page_info').addClass('anTextLeft');
+					}
+					if(index == '3'){
+						$('.section3').find('.page_text').addClass('anTextLeft');
+						$('.section3').find('.page_title > span').addClass('page_title_bg');
+
+						$('.section3').find('.bface_img').show(0).addClass('bounceInLeft delay-1');
+
+						$('.section3').find('.link_list').eq(0).addClass('active');
+						$('.section3').find('.link_item').eq(0).addClass('an-Left');
+						$('.section3').find('.link_item').eq(1).addClass('animated zoomOut delay-3');
+						$('.section3').find('.link_item').eq(2).addClass('animated zoomOut delay-3');
+						$('.section3').find('.link_item').eq(3).addClass('an-Right');
+
+					}
+					if(index == '4'){
+						$('.section4').find('.page_title > span').addClass('page_title_bg');
+						$('.section4').find('.page_info').addClass('anTextLeft');
+					}
+					if(index == '5'){
+						$('.section5').find('.page_title > span').addClass('page_title_bg yellow_title_bg');
+						$('.section5').find('.page_text').addClass('anTextLeft');
+						$('.section5').find('.group_left').addClass('getL');
+						$('.section5').find('.group_right').addClass('getR');
+					}
+					if(index == '6'){
+						$('.section6').find('.page_title > span').addClass('page_title_bg');
+						$('.section6').find('.page_text').addClass('anTextLeft');
+						$('.section6').find('.ui_img').addClass('get-Left');
+					}
+					if(index == '7'){
+						$('.section7').find('.page_title > span').show(0).addClass('page_title_bg green_title_bg');
+						$('.section7').find('.tuo2').show(0).addClass('animated2 bounceInRight delay-1');
+						$('.section7').find('.page_text').show(0).addClass('anTextLeft');
+						$('.section7').find('.show_bar').show(0).addClass('animated zoomIn');
+						$('.section7').find('.agin').show(0).addClass('animated zoomIn');
+						$('.section7').find('.share').show(0).addClass('animated zoomIn');
+					}
+				},
+				onLeave: function(index, direction){
+					if(index == '1'){
+						$('.section1').find('.cloud_bar').hide(0).removeClass('bounceInRight delay-1');
+						$('.section1').find('.slogn_bar').hide(0).removeClass('bounceIn');
+						$('.section1').find('.fork_bar').hide(0).removeClass('slideInLeft delay-1');
+						$('.section1').find('.lamb_bar').hide(0).removeClass('bounceInLeft delay-2');
+						$('.section1').find('.a_link_bar').hide(0).removeClass('bounceIn delay-3');
+					}
+					if(index == '2'){
+						$('.section2').find('.page_title > span').removeClass('page_title_bg');
+						$('.section2').find('.page_info').removeClass('anTextLeft');
+					}
+					if(index == '3'){
+						$('.section3').find('.page_text').removeClass('anTextLeft');
+						$('.section3').find('.page_title > span').removeClass('page_title_bg');
+
+						$('.section3').find('.link_list').eq(0).removeClass('active');
+						$('.section3').find('.link_item').eq(0).removeClass('an-Left');
+						$('.section3').find('.link_item').eq(1).removeClass('animated zoomOut delay-3');
+						$('.section3').find('.link_item').eq(2).removeClass('animated zoomOut delay-3');
+						$('.section3').find('.link_item').eq(3).removeClass('an-Right');
+
+						$('.section3').find('.bface_img').hide(0).removeClass('bounceInLeft delay-1');
+					}
+					if(index == '4'){
+						$('.section4').find('.page_title > span').removeClass('page_title_bg');
+						$('.section4').find('.page_info').removeClass('anTextLeft');
+					}
+					if(index == '5'){
+						$('.section5').find('.page_title > span').removeClass('page_title_bg yellow_title_bg');
+						$('.section5').find('.page_text').removeClass('anTextLeft');
+						$('.section5').find('.group_left').removeClass('getL');
+						$('.section5').find('.group_right').removeClass('getR');
+					}
+					if(index == '6'){
+						$('.section6').find('.page_title > span').removeClass('page_title_bg');
+						$('.section6').find('.page_text').removeClass('anTextLeft');
+						$('.section6').find('.ui_img').removeClass('get-Left');
+					}
+					if(index == '7'){
+						$('.section7').find('.page_title > span').hide(0).removeClass('page_title_bg green_title_bg');
+						$('.section7').find('.page_text').hide(0).removeClass('anTextLeft');
+						$('.section7').find('.tuo2').hide(0).removeClass('animated2 bounceInRight delay-1');
+						$('.section7').find('.show_bar').hide(0).removeClass('animated zoomIn');
+						$('.section7').find('.agin').hide(0).removeClass('animated zoomIn');
+						$('.section7').find('.share').hide(0).removeClass('animated zoomIn');
+					}
+				}
+			});
+		});
+
+	</script>
+	</body>
+</html>
