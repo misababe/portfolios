@@ -3,7 +3,6 @@
 <head>
     <meta charset="utf-8" />
     <meta content=”yes” name=”apple-mobile-web-app-capable” />
-    <meta name="viewport" content="minimal-ui">
     <meta name="full-screen" content="yes">
     <meta name="browsermode" content="application"/>
     <meta name="x5-fullscreen" content="auto|true" />
@@ -11,7 +10,7 @@
     <!--设置初始比例（1：1像素还原）-->
     <script>
         var iScale = 1 / window.devicePixelRatio;
-        document.write('<meta name="viewport" content="width=device-width,initial-scale='+iScale+',minimum-scale='+iScale+',maximum-scale='+iScale+',user-scalable=no"/>');
+        document.write('<meta name="viewport" content="width=device-width,initial-scale='+iScale+',minimum-scale='+iScale+',maximum-scale='+iScale+',minimal-ui,user-scalable=no"/>');
     </script>
     <!--动态设置html字体大小-->
     <script>
