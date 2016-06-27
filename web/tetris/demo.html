@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>俄罗斯方块</title>
+    <!--设置初始比例（1：1像素还原）-->
+    <script>
+        var iScale = 1 / window.devicePixelRatio;
+        document.write('<meta name="viewport" content="width=device-width,initial-scale='+iScale+',minimum-scale='+iScale+',maximum-scale='+iScale+',user-scalable=no"/>');
+    </script>
+    <!--动态设置html字体大小-->
+    <script>
+        var iWidth = document.documentElement.clientWidth;
+        document.getElementsByTagName('html')[0].style.fontSize = iWidth / 15 + 'px';
+        window.onresize = function(){
+            var iWidth = document.documentElement.clientWidth;
+            document.getElementsByTagName('html')[0].style.fontSize = iWidth / 15 + 'px';
+        }
+    </script>
+    <link rel="stylesheet" type="text/css"  href="css/index.css" />
+    <style type="text/css">
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="screen">
+        <div id="score-board">
+            <canvas id="score"></canvas>
+            <canvas id="level"></canvas>
+            <!--<div id="lines"></div>-->
+            <canvas id="next-shape"></canvas>
+        </div>
+        <div id="content">
+            <div class="wall left-wall"></div>
+            <canvas id="board"></canvas>
+            <div class="wall right-wall"></div>
+        </div>
+    </div>
+    <div class="button">
+       <div class="middle">
+           <ul>
+               <li class="top shape"></li>
+               <li class="right"></li>
+               <li class="down"></li>
+               <li class="left"></li>
+           </ul>
+       </div>
+    </div>
+    <div class="sound"></div>
+    <div class="right-btn shape"></div>
+</div>
+<script src="js/tetris.js"></script>
+</body>
+</html>
