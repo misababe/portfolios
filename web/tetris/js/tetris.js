@@ -4,7 +4,7 @@
 var Tetris = (function(){
     var interval;
     var cols = 10;
-    var rows = 15;
+    var rows = 13;
     var blockSize = 47;
     var speed = 800;
     var gameOver = false;
